@@ -4,7 +4,6 @@ function App() {
   return (
     <div className='container'>
       <div className='sidebar-info'>
-        Testando
       </div>
       <div className='main-content'>
         <div className='nav-bar'></div>

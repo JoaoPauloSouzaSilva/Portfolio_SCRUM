@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  margin: 5% 10%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.container .sidebar-info {
+  background-color: black;
+  height: 100vh;
+  width: 25%;
+}
+
+.container .main-content {
+  background-color: blue;
+  height: 100vh;
+  width: 75%;
+}
