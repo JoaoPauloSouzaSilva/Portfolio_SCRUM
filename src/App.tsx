@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import NavigationBar from './components/naviagtionBar/NavigationBar';
+import About from './components/about/About';
+import Portfolio from './components/portfolio/Portfolio';
+import Qualities from './components/qualities/Qualities';
+import Resume from './components/resume/Resume';
+import Skills from './components/skills/Skills';
 
 
 function App() {
@@ -11,7 +16,6 @@ function App() {
   const [VisibilityScreenPortfolio, setVisibilityScreenPortfolio] = useState(false);
   const [VisibilityScreenSkills, setVisibilityScreenSkills] = useState(false);
   const [VisibilityScreenQualities, setVisibilityScreenQualities] = useState(false);
-
 
   useEffect(() => {
     setVisibilityScreenSobre(KeyScreen === 0);
@@ -26,19 +30,36 @@ function App() {
     setKeyScreen(key)
   }
 
-
   return (
     <div className='container'>
-      {/* <div className='sidebar-info'></div>
-      <div className='main-content'>
-        <div className='nav-bar'></div>
-        <div className="about"></div>
-        <div className="resume"></div>
-        <div className="portfolio"></div>
-        <div className="skills"></div>
-        <div className="qualities"></div>
-      </div> */}
+      
+      
+      
       <NavigationBar Navigation={routes}/>
+
+      <div className='main-content'>
+
+        {VisibilityScreenSobre &&
+          <About/>
+        }
+
+        {VisibilityScreenResumo &&
+          <Resume/>
+        }
+
+        {VisibilityScreenPortfolio &&
+          <Portfolio/>
+        }
+
+        {VisibilityScreenSkills &&
+          <Skills/>
+        }
+
+        {VisibilityScreenQualities &&
+          <Qualities/>
+        }
+
+      </div>
     </div>
   )
 }
