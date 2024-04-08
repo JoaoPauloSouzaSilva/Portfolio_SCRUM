@@ -3,7 +3,9 @@ import './App.css'
 function App() {
   return (
     <div className='container'>
-      <div className='sidebar-info'></div>
+      <div className='sidebar-info'>
+        Testando
+      </div>
       <div className='main-content'>
         <div className='nav-bar'></div>
         <div className="about"></div>
