@@ -44,10 +44,16 @@ function App() {
           <div className="sidebar-info-more"></div>
         </div>
       </div>
+      
 
-      <div className="main-content">
-        <NavigationBar Navigation={routes} />
-        {VisibilityScreenSobre && <About />}
+      <div className='main-content'>
+        <div className="navbar-container">
+          <NavigationBar Navigation={routes}/>
+        </div>
+
+        {VisibilityScreenSobre &&
+          <About/>
+        }
 
         {VisibilityScreenResumo && <Resume />}
 
