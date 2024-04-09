@@ -1,0 +1,21 @@
+:root {
+  --primary-background: #383838;
+  --secondary-background: #2b2b2c;
+  --tertiary-background: #2b2b2cbf; 
+  --background: #202022;
+  --accent-background: #1e1e1f; 
+  --dark-background: #121212;
+  --darkest-background: #0d0d0d;
+  
+  --border: #383838;
+
+  --lightGray: #fafafa;
+  --grayTransparent: #d6d6d6b3;
+  --gold: #ffdb70;
+
+  --white: #FFFFFF;
+  --lightGray: #fafafa;
+  --gray: #d6d6d6;
+  --purple: #551a8b;
+  --black: #000000;
+}
