@@ -31,7 +31,8 @@ body{
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
   font: 500;
-  font-size: 13pt;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .listOptionsNavBar :hover{

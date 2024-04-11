@@ -1,0 +1,102 @@
+@import url(../../theme/colors.css);
+@import url(../../theme/fonts.css);
+
+.About-container{
+  margin: 0% 2% 0% 2%;
+  font-family: var(--font-family);
+  margin-top: -30px;
+}
+
+.About-header{
+  width: 100%;
+  height: auto;
+  margin-bottom: 4%;
+}
+
+.About-line{
+  background-color: var(--gold);
+  width: 5%;
+  height: auto;
+  padding: 0.8% 0% 0% 0%;
+  border-radius: 20px;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+
+.title{
+  font-size: 32px;
+  color: var(--white);
+  font-weight: 600;
+}
+
+.About-container-text{
+  margin-bottom: 2%;
+}
+
+.About-text{
+  font-size: 15px;
+  color: var(--gray);
+  font-weight: 300;
+  margin-bottom: 2%;
+}
+
+.About-doing{
+  margin-bottom: 3%;
+}
+
+.About-doing-header{
+  font-size: 24px;
+  color: var(--white);
+  font-weight: 600;
+  margin-bottom: 0%;
+}
+
+.About-doing-container-activities{
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+}
+
+.About-doing-activities{
+  width: 47%;
+  height: auto;
+  background-color: var(--secondary-background);
+  display: flex;
+  flex-direction: row;
+  padding: 2% 2% 3% 2%;
+  border-radius: 20px;
+  border: solid 1px var(--border);
+}
+
+.activities-icon{
+  padding: 3% 5% 0% 0%;
+  color: var(--gold);
+}
+
+.activities-content{
+  padding: 2% 5% 0% 0%;
+  
+}
+
+.activities-title{
+  color: var(--white);
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+.activities-text{
+  color: var(--gray);
+  font-size: 13px;
+}
+
+.About-testimonials-header{
+  font-size: 24px;
+  color: var(--white);
+  font-weight: 600;
+  margin-bottom: 0%;
+  }
