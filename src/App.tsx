@@ -50,7 +50,7 @@ function App() {
           <ul className="contact-list">
             <li className="contact-item">
               <div className="icon-box">
-                <UilEnvelope size="30" color="#61DAFB" />
+                <UilEnvelope />
               </div>
               <div className="contact-info">
                 <p className="contact-title">Email</p>
@@ -64,7 +64,7 @@ function App() {
             </li>
             <li className="contact-item">
               <div className="icon-box">
-                <UilEnvelope size="30" color="#61DAFB" />
+                <UilEnvelope/>
               </div>
               <div className="contact-info">
                 <p className="contact-title">Phone</p>
@@ -75,7 +75,7 @@ function App() {
             </li>
             <li className="contact-item">
               <div className="icon-box">
-                <UilEnvelope size="30" color="#61DAFB" />
+                <UilEnvelope/>
               </div>
               <div className="contact-info">
                 <p className="contact-title">Birthday</p>
@@ -84,7 +84,7 @@ function App() {
             </li>
             <li className="contact-item">
               <div className="icon-box">
-                <UilEnvelope size="30" color="#61DAFB" />
+                <UilEnvelope />
               </div>
               <div className="contact-info">
                 <p className="contact-title">Location</p>
@@ -96,17 +96,17 @@ function App() {
           <ul className="social-list">
             <li className="social-item">
               <a href="#" className="social-link">
-                <UilWhatsappAlt size="30" color="#61DAFB" />
+                <UilWhatsappAlt />
               </a>
             </li>
             <li className="social-item">
               <a href="#" className="social-link">
-                <UilLinkedin size="30" color="#61DAFB" />
+                <UilLinkedin />
               </a>
             </li>
             <li className="social-item">
               <a href="#" className="social-link">
-                <UilInstagram size="30" color="#61DAFB" />
+                <UilInstagram />
               </a>
             </li>
           </ul>
