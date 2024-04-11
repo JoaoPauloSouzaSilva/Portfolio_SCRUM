@@ -8,6 +8,7 @@
 
 body{
   background-color: var(--dark-background);
+  font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -164,3 +165,4 @@ a {
   padding-bottom: 4px;
   padding-left: 7px;
 }
+
