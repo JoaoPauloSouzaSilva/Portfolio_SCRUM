@@ -10,6 +10,9 @@ import { UilEnvelope } from "@iconscout/react-unicons";
 import { UilWhatsappAlt } from "@iconscout/react-unicons";
 import { UilLinkedin } from "@iconscout/react-unicons";
 import { UilInstagram } from "@iconscout/react-unicons";
+import { UilPhone } from '@iconscout/react-unicons';
+import { UilCalendarAlt } from '@iconscout/react-unicons';
+import { UilLocationPinAlt } from '@iconscout/react-unicons';
 
 function App() {
   const [KeyScreen, setKeyScreen] = useState(0);
@@ -64,7 +67,7 @@ function App() {
             </li>
             <li className="contact-item">
               <div className="icon-box">
-                <UilEnvelope/>
+                <UilPhone />
               </div>
               <div className="contact-info">
                 <p className="contact-title">Phone</p>
@@ -75,7 +78,7 @@ function App() {
             </li>
             <li className="contact-item">
               <div className="icon-box">
-                <UilEnvelope/>
+                <UilCalendarAlt/>
               </div>
               <div className="contact-info">
                 <p className="contact-title">Birthday</p>
@@ -84,7 +87,7 @@ function App() {
             </li>
             <li className="contact-item">
               <div className="icon-box">
-                <UilEnvelope />
+                <UilLocationPinAlt />
               </div>
               <div className="contact-info">
                 <p className="contact-title">Location</p>
@@ -96,17 +99,23 @@ function App() {
           <ul className="social-list">
             <li className="social-item">
               <a href="#" className="social-link">
+              <div className="social-icon">
                 <UilWhatsappAlt />
+              </div>
               </a>
             </li>
             <li className="social-item">
               <a href="#" className="social-link">
-                <UilLinkedin />
+                <div className="social-icon">
+                  <UilLinkedin />
+                </div>
               </a>
             </li>
             <li className="social-item">
               <a href="#" className="social-link">
-                <UilInstagram />
+                <div className="social-icon">
+                  <UilInstagram />
+                </div>
               </a>
             </li>
           </ul>

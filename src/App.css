@@ -13,26 +13,31 @@ body{
 
 .container {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   flex-direction: row;
   max-width: 1200px;
-  margin: 15px 12px;
+  margin: 60px 12px;
+  margin-bottom: 60px;
   margin-inline: auto;
+  gap: 25px;
 }
 
 .container .sidebar {
   display: block;
   position: sticky;
-  max-height: max-content;
-  height: 100%;
-  margin-bottom: 0;
-  padding-top: 60px;
   background-color: var(--accent-background);
-  width: auto;
   border-radius: 20px;
   border: 1px solid var(--border);
+  top: 60px;
+  width: 300px;
+  height: 100%;
+  max-height: max-content;
   padding: 30px;
+  padding-top: 60px;
+  margin-bottom: 0;
+  margin-inline: auto;
+  z-index: 1;
 }
 
 .container .sidebar .sidebar-info {
@@ -46,7 +51,7 @@ body{
 
 .container .sidebar .sidebar-info .figure {
   display: block;
-  margin-block-start: 3em;
+  margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 40px;
   margin-inline-end: 40px;
@@ -68,7 +73,6 @@ body{
   letter-spacing: -0.25px;
   margin-bottom: 15px;
   text-align: center;
-  white-space: nowrap;
 }
 
 .container .sidebar .sidebar-info .info-content .description {
@@ -88,6 +92,7 @@ body{
   width: 75%;
   border-radius: 20px;
   border: solid 1px var(--border);
+  min-width: 75%;
 }
 
 .navbar-container{
@@ -140,7 +145,7 @@ body{
 }
 
 .container .sidebar .sidebar-info-more .contact-item .contact-title {
-  color: var(--lightWhite);
+  color: var(--grayTransparent);
   font-size: 12px;
   text-transform: uppercase;
   margin-bottom: 2px;
@@ -163,4 +168,9 @@ a {
   gap: 15px;
   padding-bottom: 4px;
   padding-left: 7px;
+}
+
+
+.container .sidebar .sidebar-info-more .social-list .social-item .social-link .social-icon{
+  color: var(--grayTransparent);
 }
