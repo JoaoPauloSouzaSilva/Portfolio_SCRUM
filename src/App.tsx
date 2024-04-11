@@ -6,6 +6,10 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Qualities from "./components/qualities/Qualities";
 import Resume from "./components/resume/Resume";
 import Skills from "./components/skills/Skills";
+import { UilEnvelope } from "@iconscout/react-unicons";
+import { UilWhatsappAlt } from "@iconscout/react-unicons";
+import { UilLinkedin } from "@iconscout/react-unicons";
+import { UilInstagram } from "@iconscout/react-unicons";
 
 function App() {
   const [KeyScreen, setKeyScreen] = useState(0);
@@ -40,20 +44,81 @@ function App() {
             <h1 className="name"> Ítalo César Silva Oliveira</h1>
             <p className="description"> Full Stack Developer </p>
           </div>
-          <div className="info-more"></div>
-          <div className="sidebar-info-more"></div>
+        </div>
+        <div className="sidebar-info-more">
+          <div className="separator"></div>
+          <ul className="contact-list">
+            <li className="contact-item">
+              <div className="icon-box">
+                <UilEnvelope size="30" color="#61DAFB" />
+              </div>
+              <div className="contact-info">
+                <p className="contact-title">Email</p>
+                <a
+                  href="mailto:italo.cs.oliveira@gmail.com"
+                  className="contact-link"
+                >
+                  italo.cs.oliveira@gmail.com
+                </a>
+              </div>
+            </li>
+            <li className="contact-item">
+              <div className="icon-box">
+                <UilEnvelope size="30" color="#61DAFB" />
+              </div>
+              <div className="contact-info">
+                <p className="contact-title">Phone</p>
+                <a href="tel:+5531993447557" className="contact-link">
+                  +55 (31) 99344-7557
+                </a>
+              </div>
+            </li>
+            <li className="contact-item">
+              <div className="icon-box">
+                <UilEnvelope size="30" color="#61DAFB" />
+              </div>
+              <div className="contact-info">
+                <p className="contact-title">Birthday</p>
+                <p className="datetime">08 de Fevereiro, 2003</p>
+              </div>
+            </li>
+            <li className="contact-item">
+              <div className="icon-box">
+                <UilEnvelope size="30" color="#61DAFB" />
+              </div>
+              <div className="contact-info">
+                <p className="contact-title">Location</p>
+                <p className="address">Salinas, Minas Gerais, BR</p>
+              </div>
+            </li>
+          </ul>
+          <div className="separator"></div>
+          <ul className="social-list">
+            <li className="social-item">
+              <a href="#" className="social-link">
+                <UilWhatsappAlt size="30" color="#61DAFB" />
+              </a>
+            </li>
+            <li className="social-item">
+              <a href="#" className="social-link">
+                <UilLinkedin size="30" color="#61DAFB" />
+              </a>
+            </li>
+            <li className="social-item">
+              <a href="#" className="social-link">
+                <UilInstagram size="30" color="#61DAFB" />
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-      
 
-      <div className='main-content'>
+      <div className="main-content">
         <div className="navbar-container">
-          <NavigationBar Navigation={routes}/>
+          <NavigationBar Navigation={routes} />
         </div>
 
-        {VisibilityScreenSobre &&
-          <About/>
-        }
+        {VisibilityScreenSobre && <About />}
 
         {VisibilityScreenResumo && <Resume />}
 
