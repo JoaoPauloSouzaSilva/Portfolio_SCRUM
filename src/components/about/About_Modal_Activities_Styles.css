@@ -1,0 +1,85 @@
+@import url(../../theme/colors.css);
+@import url(../../theme/fonts.css);
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8); /* fundo mais escuro com opacidade */
+  z-index: 1000; /* z-index alto para que fique sobre todo o conteúdo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  width: 43%;
+  height: auto;
+  background-color: var(--accent-background);
+  padding: 0%;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border: solid 1px var(--border);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family);
+}
+
+.modal-container-close{
+  display: flex;
+  justify-content: right;
+  margin: 2% 2% 0% 4%;
+  
+}
+
+.modal-close {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  width: 6%;
+  color: var(--gray);
+  cursor: pointer;
+  padding: 0.6% 0% 0.6% 0%;
+  border-radius: 8px;
+  background-color: var(--secondary-background);
+
+}
+
+.modal-close:hover{
+  background-color: var( --primary-background);
+}
+
+.modal-main{
+  margin: 0% 4% 4% 4%;
+  display: flex;
+  flex-direction: row;
+}
+
+.modal-icon-activities{
+  padding: 0% 0% 0% 0%;
+  color: var(--gold);
+  width: 20%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.modal-content-text{
+  width: 80%;
+  margin-top: -1%;
+
+}
+
+.modal-title{
+  color: var(--white);
+  font-size: 24px;
+}
+
+.modal-text{
+  color: var(--gray);
+  font-size: 15px;
+  width: 95%;
+}
