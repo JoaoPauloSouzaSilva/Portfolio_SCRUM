@@ -1,24 +1,19 @@
-/* themes/colors.css */
-
-@import './colors.ts';
-
 :root {
-  --primary-background: ${colors.primaryBackground};
-  --secondary-background: ${colors.secondaryBackground};
-  --tertiary-background: ${colors.tertiaryBackground};
-  --background: ${colors.background};
-  --accent-background: ${colors.accentBackground};
-  --dark-background: ${colors.darkBackground};
-  --darkest-background: ${colors.darkestBackground};
+  --primary-background: #383838;
+  --secondary-background: #2b2b2c;
+  --tertiary-background: #2b2b2cbf;
+  --background: #202022;
+  --accent-background: #1e1e1f;
+  --dark-background: #121212;
+  --darkest-background: #0d0d0d;
   
-  --border: ${colors.border};
-
-  --lightGray: ${colors.lightGray};
-  --grayTransparent: ${colors.grayTransparent};
-  --gold: ${colors.gold};
-
-  --white: ${colors.white};
-  --gray: ${colors.gray};
-  --purple: ${colors.purple};
-  --black: ${colors.black};
+  --border: #383838;
+  --lightGray: #fafafa;
+  --grayTransparent: #d6d6d6b3;
+  --gold: #ffdb70;
+  
+  --white: #FFFFFF;
+  --gray: #d6d6d6;
+  --purple: #551a8b;
+  --black: #000000;
 }
