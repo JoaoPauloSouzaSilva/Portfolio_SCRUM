@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './About_Styles.css';
 import * as Unicons from '@iconscout/react-unicons';
 import ModalActivities from './Modal_Activities';
+import Carousel from './About_Carousel_Testimonials';
 
 function About(){ 
   const [isOpen_Activite01, setIsOpen_Activite01] = useState(false);
@@ -129,7 +130,7 @@ function About(){
         <div className="About-testimonials">
           <h3 className="About-testimonials-header">Testemunho</h3>
           <div className="About-testimonials-container">
-
+          <Carousel />
           </div>
 
         </div>
