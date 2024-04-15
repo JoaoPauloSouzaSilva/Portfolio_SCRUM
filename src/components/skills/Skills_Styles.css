@@ -1,0 +1,85 @@
+@import url(../../theme/colors.css);
+@import url(../../theme/fonts.css);
+
+.Skills-container{
+  margin: 0% 2% 0% 2%;
+  font-family: var(--font-family);
+  margin-top: -30px;
+
+
+  display: flex;
+  flex-direction: column;
+}
+
+.Skills-header{
+  width: 100%;
+  height: auto;
+  margin-bottom: 0%;
+}
+
+.Skills-line{
+  background-color: var(--gold);
+  width: 5%;
+  height: auto;
+  padding: 0.8% 0% 0% 0%;
+  border-radius: 20px;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+
+.Skills-title{
+  font-size: 32px;
+  color: var(--white);
+  font-weight: 600;
+}
+
+.Skills-container-card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap; /* Permite que os elementos quebrem para uma nova linha */
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.Skills-card{
+  width: 20%;
+  margin: 2%;
+  padding: 2%;
+  background-color: var(--tertiary-background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.Skills-card-title{
+  color: var(--white);
+  font-size: 24px;
+  padding: 0%;
+  width: 100%;
+}
+
+.Skills-card-icon{
+  /* color: var(--gold); */
+  color: #02bb74;
+
+}
+
+.Skills-card-level{
+  color: var(--gold);
+  font-size: 24px;
+  margin-top: 2%;
+}
+
+.Skills-card:hover{
+  opacity: 1;
+}

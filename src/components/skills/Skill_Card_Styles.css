@@ -1,0 +1,42 @@
+@import url(../../theme/colors.css);
+@import url(../../theme/fonts.css);
+
+
+.Skills-card{
+  width: 20%;
+  margin: 2%;
+  padding: 2%;
+  background-color: var(--tertiary-background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.Skills-card-title{
+  color: var(--white);
+  font-size: 24px;
+  padding: 0%;
+  width: 100%;
+}
+
+.Skills-card-icon{
+  /* color: var(--gold); */
+  color: #02bb74;
+
+}
+
+.Skills-card-level{
+  color: var(--gold);
+  font-size: 24px;
+  margin-top: 2%;
+}
+
+.Skills-card:hover{
+  opacity: 1;
+}
