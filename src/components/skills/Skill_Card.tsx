@@ -1,13 +1,19 @@
+import React from 'react';
 import './Skill_Card_Styles.css';
-import * as Unicons from '@iconscout/react-unicons';
 
-function SkillCard(){
+interface SkillCardProps{
+  Tecnologia: string;
+  ImgSrc: string;
+  Level: string;
+}
+
+const SkillCard: React.FC<SkillCardProps> = ({ Tecnologia, ImgSrc, Level}) => {
   return (
-      <div className='SkillCard-container'>
+      <div className='Skill-Card-container'>
         <div className="Skills-card">
-          <h3 className="Skills-card-title">JavaScript</h3>
-          <div className="Skills-card-icon"><Unicons.UilJavaScript size="100"/></div>
-          <h4 className="Skills-card-level">Básico</h4>
+          <h3 className="Skills-card-title">{Tecnologia}</h3>
+          <img className="Skills-card-icon" src={ImgSrc} alt={Tecnologia} />
+          <h4 className="Skills-card-level">{Level}</h4>
         </div>
       </div>
   )

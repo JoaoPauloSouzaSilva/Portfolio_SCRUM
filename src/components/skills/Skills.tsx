@@ -1,5 +1,5 @@
 import './Skills_Styles.css';
-import * as Unicons from '@iconscout/react-unicons';
+import SkillCard from './Skill_Card';
 
 function Skills(){
   return (
@@ -13,53 +13,41 @@ function Skills(){
 
         <div className="Skills-container-card">
 
-          <div className="Skills-card">
-            <h3 className="Skills-card-title">JavaScript</h3>
-            <div className="Skills-card-icon"><Unicons.UilJavaScript size="100"/></div>
-            <h4 className="Skills-card-level">Básico</h4>
-          </div>
+        <SkillCard 
+          Tecnologia={'Java'} 
+          ImgSrc={'src/assets/images/java.png'} 
+          Level={'Intermediário'}
+        />
 
-          <div className="Skills-card">
-            <h3 className="Skills-card-title">JavaScript</h3>
-            <div className="Skills-card-icon"><Unicons.UilJavaScript size="100"/></div>
-            <h4 className="Skills-card-level">Básico</h4>
-          </div>
+        <SkillCard 
+          Tecnologia={'HTML'} 
+          ImgSrc={'src/assets/images/html.png'} 
+          Level={'Avançado'}
+        />
 
-          <div className="Skills-card">
-            <h3 className="Skills-card-title">JavaScript</h3>
-            <div className="Skills-card-icon"><Unicons.UilJavaScript size="100"/></div>
-            <h4 className="Skills-card-level">Básico</h4>
-          </div>
+        <SkillCard 
+          Tecnologia={'CSS'} 
+          ImgSrc={'src/assets/images/css.png'} 
+          Level={'Avançado'}
+        />
 
-          <div className="Skills-card">
-            <h3 className="Skills-card-title">JavaScript</h3>
-            <div className="Skills-card-icon"><Unicons.UilJavaScript size="100"/></div>
-            <h4 className="Skills-card-level">Básico</h4>
-          </div>
+        <SkillCard 
+          Tecnologia={'React'} 
+          ImgSrc={'src/assets/images/react.png'} 
+          Level={'Intermediário'}
+        />
 
-          <div className="Skills-card">
-            <h3 className="Skills-card-title">JavaScript</h3>
-            <div className="Skills-card-icon"><Unicons.UilJavaScript size="100"/></div>
-            <h4 className="Skills-card-level">Básico</h4>
-          </div>
+        <SkillCard 
+          Tecnologia={'JavaScript'} 
+          ImgSrc={'src/assets/images/js.png'} 
+          Level={'Básico'}
+        />
 
-          <div className="Skills-card">
-            <h3 className="Skills-card-title">JavaScript</h3>
-            <div className="Skills-card-icon"><Unicons.UilJavaScript size="100"/></div>
-            <h4 className="Skills-card-level">Básico</h4>
-          </div>
-
-          <div className="Skills-card">
-            <h3 className="Skills-card-title">JavaScript</h3>
-            <div className="Skills-card-icon"><Unicons.UilJavaScript size="100"/></div>
-            <h4 className="Skills-card-level">Básico</h4>
-          </div>
-
-          <div className="Skills-card">
-            <h3 className="Skills-card-title">JavaScript</h3>
-            <div className="Skills-card-icon"><Unicons.UilJavaScript size="100"/></div>
-            <h4 className="Skills-card-level">Básico</h4>
-          </div>
+        <SkillCard 
+          Tecnologia={'MySQL'} 
+          ImgSrc={'src/assets/images/mysql.png'} 
+          Level={'Básico'}
+        />
 
         </div>
 

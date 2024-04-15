@@ -1,11 +1,17 @@
 @import url(../../theme/colors.css);
 @import url(../../theme/fonts.css);
 
-
-.Skills-card{
+.Skill-Card-container{
   width: 20%;
   margin: 2%;
-  padding: 2%;
+}
+
+
+
+.Skills-card{
+  width: 100%;
+  margin: 2%;
+  padding: 3%;
   background-color: var(--tertiary-background);
   display: flex;
   flex-direction: column;
@@ -14,7 +20,7 @@
   text-align: center;
   border-radius: 20px;
   border: 1px solid var(--border);
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.1);
   
 }
 
@@ -23,18 +29,20 @@
   font-size: 24px;
   padding: 0%;
   width: 100%;
+  font-weight: bold;
 }
 
 .Skills-card-icon{
-  /* color: var(--gold); */
-  color: #02bb74;
-
+  width: 50%;
+  margin: 8%;
 }
 
 .Skills-card-level{
+  width: 100%;
   color: var(--gold);
-  font-size: 24px;
+  font-size: 20px;
   margin-top: 2%;
+  
 }
 
 .Skills-card:hover{
