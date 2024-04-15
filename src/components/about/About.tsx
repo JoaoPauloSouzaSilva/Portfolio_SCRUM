@@ -52,7 +52,7 @@ function About(){
             </p>
           </div>
         </div>
-
+{/* 
         <div className="About-doing">
           <h3 className="About-doing-header">O Que Eu Estou Fazendo</h3>
           <div className="About-doing-container-activities">
@@ -125,7 +125,7 @@ function About(){
             />
 
             </div>
-        </div>
+        </div> */}
 
         <div className="About-testimonials">
           <h3 className="About-testimonials-header">Testemunho</h3>
