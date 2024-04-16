@@ -1,12 +1,10 @@
 import "./Resume_Styles.css";
+import Title from "../Title_Screens/Title";
 
 export default function Resume() {
   return (
     <div className="Resume-container">
-      <div className="resume-header">
-        <h2 className="resume-title">Habilidades</h2>
-        <div className="resume-line"></div>
-      </div>
+      <Title Title={"Resumo"}/>
       <section className="timeline">
         <div className="title-wrapper">
           <div className="icon-box">
