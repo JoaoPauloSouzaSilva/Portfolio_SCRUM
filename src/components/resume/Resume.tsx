@@ -9,7 +9,9 @@ export default function Resume() {
       </div>
       <section className="timeline">
         <div className="title-wrapper">
-          <div className="icon-box"></div>
+          <div className="icon-box">
+            
+          </div>
           <h3 className="h3"></h3>
         </div>
         <ol className="timeline-list">
