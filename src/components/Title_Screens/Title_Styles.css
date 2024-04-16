@@ -1,0 +1,27 @@
+@import url(../../theme/colors.css);
+@import url(../../theme/fonts.css);
+
+.Title-header{
+  width: 100%;
+  height: auto;
+  margin-bottom: 0%;
+  font-family: var(--font-family);
+}
+
+.title{
+  font-size: 32px;
+  color: var(--white); 
+  font-weight: 600;
+}
+
+.line{
+  background-color: var(--gold);
+  width: 5%;
+  height: auto;
+  padding: 0.8% 0% 0% 0%;
+  border-radius: 20px;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 2%;
+  margin-top: 1%;
+}

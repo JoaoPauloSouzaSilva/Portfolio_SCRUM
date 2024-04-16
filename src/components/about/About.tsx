@@ -3,6 +3,8 @@ import './About_Styles.css';
 import * as Unicons from '@iconscout/react-unicons';
 import ModalActivities from './Modal_Activities';
 import Carousel from './About_Carousel_Testimonials';
+import Title from '../Title_Screens/Title';
+
 
 function About(){ 
   const [isOpen_Activite01, setIsOpen_Activite01] = useState(false);
@@ -37,10 +39,7 @@ function About(){
       <div className='About-container'>
 
         <div className="About-header">
-          <h2 className="title">Sobre Mim</h2>
-        
-          <div className="About-line">
-          </div>
+          <Title Title={'Sobre Mim'}/>
 
           <div className="About-container-text">
             <p className="About-text">

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './Skills_Styles.css';
 import SkillCard from './Skill_Card';
+import Title from '../Title_Screens/Title';
 
 function Skills(){
   const [selectedOption, setSelectedOption] = useState<number>(0);
@@ -35,11 +36,7 @@ function Skills(){
   return (
       <div className='Skills-container'>
 
-        <div className="Skills-header">
-          <h2 className="Skills-title">Habilidades</h2>
-          <div className="Skills-line">
-          </div>
-        </div>
+        <Title Title={'Habilidades'}/>
 
         <div className="Skills-navigation"> 
           <div className={`Skills-navigation-options ${selectedOption === 0 ? 'selected' : ''}`} onClick={() => {handleAll(); setSelectedOption(0);}}>Todos</div>
