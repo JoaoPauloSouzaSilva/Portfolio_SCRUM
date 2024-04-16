@@ -45,3 +45,28 @@
   flex-grow: 1;
 }
 
+.Skills-navigation{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.Skills-navigation-options{
+  padding: 0.5%;
+  margin:  0% 0.3%;
+  color: var(--gray);
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.Skills-navigation-options:hover{
+  opacity: 1;
+}
+
+.selected {
+  color: var(--gold);
+}
+
+.selected:hover {
+  color: var(--gold);
+}

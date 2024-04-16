@@ -6,7 +6,9 @@
   margin: 2%;
 }
 
-
+.test{
+  color: var(--gold);
+}
 
 .Skills-card{
   width: 100%;

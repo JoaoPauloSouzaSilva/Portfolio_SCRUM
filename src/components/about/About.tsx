@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './About_Styles.css';
 import * as Unicons from '@iconscout/react-unicons';
 import ModalActivities from './Modal_Activities';
