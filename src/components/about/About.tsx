@@ -67,7 +67,7 @@ function About(){
             <Activities 
               onClick={() => setIsOpen_Activite03(true)}
               Title={'Fotografia'} 
-              Text={'>Faço fotos de alta qualidade de qualquer categoria a nível profissional.'} 
+              Text={'Faço fotos de alta qualidade de qualquer categoria a nível profissional.'} 
               NameIcon={'UilCamera'}
             />
 

@@ -4,7 +4,7 @@
 .Activities-container{
   width: 47%;
   height: auto;
-  background-color: var(--background);
+  background-color: var( --tertiary-background);
   display: flex;
   flex-direction: row;
   padding: 2% 2% 3% 2%;
@@ -12,6 +12,10 @@
   border: solid 1px var(--border);
   margin-bottom: 3%;
   font-family: var(--font-family);
+}
+
+.Activities-container:hover{
+  background-color: var(--secondary-background);
 }
 
 .Activities-icon{
