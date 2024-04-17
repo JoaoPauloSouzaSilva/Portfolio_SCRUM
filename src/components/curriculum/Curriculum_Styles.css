@@ -46,17 +46,21 @@
   color: var(--gray);
   cursor: pointer;
   margin-top: 1%;
+  box-shadow: 1px 1px 0px var(--gold);
+  transition: color 2s, background-color 0.3s, transform 2s, box-shadow 2s;
 }
 
+.Curriculum-action:hover{
+  color: var(--gold);
+  background-color: var(--secondary-background);
+  transform: scale(1.05);
+  box-shadow: none;
+}
 
 .Curriculum-text-button{
   padding-top: 5%;
 }
 
-.Curriculum-action:hover{
-  color: var(--white);
-  background-color: var(--secondary-background);
-}
 
 .separator {
   width: 100%;
