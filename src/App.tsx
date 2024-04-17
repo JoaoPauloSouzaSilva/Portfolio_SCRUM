@@ -3,7 +3,7 @@ import "./App.css";
 import NavigationBar from "./components/naviagtionBar/NavigationBar";
 import About from "./components/about/About";
 import Portfolio from "./components/portfolio/Portfolio";
-import Qualities from "./components/qualities/Qualities";
+import Curriculum from "./components/curriculum/Curriculum";
 import Resume from "./components/resume/Resume";
 import Skills from "./components/skills/Skills";
 import { UilEnvelope } from "@iconscout/react-unicons";
@@ -135,7 +135,7 @@ function App() {
 
         {VisibilityScreenSkills && <Skills />}
 
-        {VisibilityScreenQualities && <Qualities />}
+        {VisibilityScreenQualities && <Curriculum />}
       </div>
     </div>
   );
