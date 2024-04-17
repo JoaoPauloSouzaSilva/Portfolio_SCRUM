@@ -1,0 +1,36 @@
+@import url(../../theme/colors.css);
+@import url(../../theme/fonts.css);
+
+.Activities-container{
+  width: 47%;
+  height: auto;
+  background-color: var(--background);
+  display: flex;
+  flex-direction: row;
+  padding: 2% 2% 3% 2%;
+  border-radius: 20px;
+  border: solid 1px var(--border);
+  margin-bottom: 3%;
+  font-family: var(--font-family);
+}
+
+.Activities-icon{
+  padding: 3% 5% 0% 0%;
+  color: var(--gold);
+}
+
+.Activities-content{
+  padding: 2% 5% 0% 0%;
+}
+
+.Activities-title{
+  color: var(--white);
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+.Activities-text{
+  color: var(--gray);
+  font-size: 13px;
+}
