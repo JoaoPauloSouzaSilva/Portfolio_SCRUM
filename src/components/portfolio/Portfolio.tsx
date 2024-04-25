@@ -35,7 +35,6 @@ function Portfolio(){
     setwebDevelop_visibility(true);
   };
 
-
   return ( 
     <div className='Portfolio-container'>
       <Title Title={'Portfólio'}/>
@@ -48,8 +47,6 @@ function Portfolio(){
         </div>
 
       <div className="Portfolio-container-card">
-
-
         {webDevelop_visibility &&
           <ProjectCard
             title={'Orizon'} 
@@ -73,7 +70,7 @@ function Portfolio(){
             ImgSrc={'src/assets/images/projects/project-3.png'} 
           />
         }
-        
+
       </div>
     </div>
   )
