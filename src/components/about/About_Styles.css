@@ -13,7 +13,7 @@
 .About-header{
   width: 100%;
   height: auto;
-  margin-bottom: 2%;
+  margin-bottom: 0%;
 }
 
 .About-line{
@@ -42,11 +42,11 @@
   font-size: 15px;
   color: var(--gray);
   font-weight: 300;
-  margin-bottom: 2%;
+
 }
 
 .About-doing{
-  margin-bottom: 3%;
+  margin-bottom: 1%;
 }
 
 .About-doing-header{
@@ -59,7 +59,7 @@
 .About-doing-container-activities{
   width: 100%;
   height: auto;
-  padding: 2%;
+  padding: 2% 2% 0% 2%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;

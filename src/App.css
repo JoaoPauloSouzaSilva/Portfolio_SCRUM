@@ -1,4 +1,5 @@
 @import url(./theme/colors.css);
+@import url(./theme/fonts.css);
 
 * {
   padding: 0;
@@ -8,7 +9,7 @@
 
 body{
   background-color: var(--dark-background);
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family);
 }
 
 .container {
@@ -88,11 +89,13 @@ body{
 
 .container .main-content {
   background-color: var(--accent-background);
-  height: 100vh;
+  height: auto;
   width: 75%;
   border-radius: 20px;
   border: solid 1px var(--border);
   min-width: 75%;
+  
+  
 }
 
 .navbar-container{

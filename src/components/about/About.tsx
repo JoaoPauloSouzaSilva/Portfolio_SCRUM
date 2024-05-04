@@ -20,11 +20,11 @@ function About(){
           <Title Title={'Sobre Mim'}/>
 
           <div className="About-container-text">
-            <p className="About-text">
+            <p className="About-text" style={{ marginBottom: '2%' }}>
             Sou Diretor de Criação e UI/UX Designer de Sydney, Austrália, trabalhando com desenvolvimento web e mídia impressa. Gosto de transformar problemas complexos em designs simples, bonitos e intuitivos.
             </p>
 
-            <p className="About-text">
+            <p className="About-text" style={{ marginBottom: '3%' }}>
             Meu trabalho é construir o seu site de forma que seja funcional e fácil de usar, mas ao mesmo tempo atraente. Além disso, adiciono um toque pessoal ao seu produto e garanto que ele seja atraente e fácil de usar. Meu objetivo é transmitir sua mensagem e identidade da maneira mais criativa. Criei web design para muitas empresas de marcas famosas.
             </p>
           </div>
