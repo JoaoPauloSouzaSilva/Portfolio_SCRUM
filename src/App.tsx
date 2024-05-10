@@ -44,81 +44,88 @@ function App() {
             <img src="src/assets/images/avatar-emoji.png" alt="Avatar Emoji" />
           </div>
           <div className="info-content">
-            <h1 className="name"> Ítalo César Silva Oliveira</h1>
+            <h1 className="name">João Paulo S. S.</h1>
             <p className="description"> Full Stack Developer </p>
           </div>
         </div>
         <div className="sidebar-info-more">
           <div className="separator"></div>
-          <ul className="contact-list">
-            <li className="contact-item">
-              <div className="icon-box">
-                <UilEnvelope />
-              </div>
-              <div className="contact-info">
-                <p className="contact-title">Email</p>
-                <a
-                  href="mailto:italo.cs.oliveira@gmail.com"
-                  className="contact-link"
-                >
-                  italo.cs.oliveira@gmail.com
-                </a>
-              </div>
-            </li>
-            <li className="contact-item">
-              <div className="icon-box">
-                <UilPhone />
-              </div>
-              <div className="contact-info">
-                <p className="contact-title">Phone</p>
-                <a href="tel:+5531993447557" className="contact-link">
-                  +55 (31) 99344-7557
-                </a>
-              </div>
-            </li>
-            <li className="contact-item">
-              <div className="icon-box">
-                <UilCalendarAlt/>
-              </div>
-              <div className="contact-info">
-                <p className="contact-title">Birthday</p>
-                <p className="datetime">08 de Fevereiro, 2003</p>
-              </div>
-            </li>
-            <li className="contact-item">
-              <div className="icon-box">
-                <UilLocationPinAlt />
-              </div>
-              <div className="contact-info">
-                <p className="contact-title">Location</p>
-                <p className="address">Salinas, Minas Gerais, BR</p>
-              </div>
-            </li>
-          </ul>
-          <div className="separator"></div>
-          <ul className="social-list">
-            <li className="social-item">
-              <a href="#" className="social-link">
-              <div className="social-icon">
-                <UilWhatsappAlt />
-              </div>
-              </a>
-            </li>
-            <li className="social-item">
-              <a href="#" className="social-link">
-                <div className="social-icon">
-                  <UilLinkedin />
+        
+            <ul className="contact-list">
+              <li className="contact-item">
+                <div className="icon-box">
+                  <UilEnvelope />
                 </div>
-              </a>
-            </li>
-            <li className="social-item">
-              <a href="#" className="social-link">
-                <div className="social-icon">
-                  <UilInstagram />
+                <div className="contact-info">
+                  <p className="contact-title">Email</p>
+                  <a
+                    href="mailto:joaopaulloss477@gmail.com"
+                    className="contact-link"
+                  >
+                    joaopaulloss477@gmail.com
+                  </a>
                 </div>
-              </a>
-            </li>
-          </ul>
+              </li>
+              <li className="contact-item">
+                <div className="icon-box">
+                  <UilPhone />
+                </div>
+                <div className="contact-info">
+                  <p className="contact-title">Phone</p>
+                  <a href="tel:+5531993447557" className="contact-link">
+                    +55 (31) 99344-7557
+                  </a>
+                </div>
+              </li>
+              <li className="contact-item">
+                <div className="icon-box">
+                  <UilCalendarAlt/>
+                </div>
+                <div className="contact-info">
+                  <p className="contact-title">Birthday</p>
+                  <p className="datetime">08 de Fevereiro, 2003</p>
+                </div>
+              </li>
+              <li className="contact-item">
+                <div className="icon-box">
+                  <UilLocationPinAlt />
+                </div>
+                <div className="contact-info">
+                  <p className="contact-title">Location</p>
+                  <p className="address">Salinas, Minas Gerais, BR</p>
+                </div>
+              </li>
+            </ul>
+        
+
+        
+            <div className="separator" style={{marginBottom: '7%'}}></div>
+            
+            <ul className="social-list">
+              <li className="social-item">
+                <a href="#" className="social-link">
+                <div className="social-icon">
+                  <UilWhatsappAlt />
+                </div>
+                </a>
+              </li>
+              <li className="social-item">
+                <a href="#" className="social-link">
+                  <div className="social-icon">
+                    <UilLinkedin />
+                  </div>
+                </a>
+              </li>
+              <li className="social-item">
+                <a href="#" className="social-link">
+                  <div className="social-icon">
+                    <UilInstagram />
+                  </div>
+                </a>
+              </li>
+            </ul>
+      
+
         </div>
       </div>
 
