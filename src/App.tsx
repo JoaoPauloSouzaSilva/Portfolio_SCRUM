@@ -54,7 +54,7 @@ function App() {
             <ul className="contact-list">
               <li className="contact-item">
                 <div className="icon-box">
-                  <UilEnvelope />
+                  <UilEnvelope size="50%"/>
                 </div>
                 <div className="contact-info">
                   <p className="contact-title">Email</p>
@@ -68,7 +68,7 @@ function App() {
               </li>
               <li className="contact-item">
                 <div className="icon-box">
-                  <UilPhone />
+                  <UilPhone size="50%"/>
                 </div>
                 <div className="contact-info">
                   <p className="contact-title">Phone</p>
@@ -79,7 +79,7 @@ function App() {
               </li>
               <li className="contact-item">
                 <div className="icon-box">
-                  <UilCalendarAlt/>
+                  <UilCalendarAlt size="50%"/>
                 </div>
                 <div className="contact-info">
                   <p className="contact-title">Birthday</p>
@@ -88,7 +88,7 @@ function App() {
               </li>
               <li className="contact-item">
                 <div className="icon-box">
-                  <UilLocationPinAlt />
+                  <UilLocationPinAlt size="50%"/>
                 </div>
                 <div className="contact-info">
                   <p className="contact-title">Location</p>
@@ -119,10 +119,11 @@ function App() {
               <li className="social-item">
                 <a href="#" className="social-link">
                   <div className="social-icon">
-                    <UilInstagram />
+                    <UilInstagram  /> 
                   </div>
                 </a>
               </li>
+              
             </ul>
       
 
