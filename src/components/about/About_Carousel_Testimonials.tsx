@@ -13,7 +13,7 @@ interface Card {
 }
 
 const cards: Card[] = [
-  { title: 'Jamerson Jardel Neris', text: 'joão Paulo foi um foda aluno, com notas superiores oa 80% ...', sub_title: "Professor do IFNMG-Salinas", modalText: "Texto do Modal" },
+  { title: 'Jamerson Jardel Neris', text: 'joão Paulo foi um foda aluno, com notas superiores oa 80% ...', sub_title: "Professor do IFNMG-Salinas", modalText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, placeat nemo. Tempora aliquam, eum animi velit vero asperiores, pariatur eius quam accusamus nostrum ducimus maiores illum vel placeat aspernatur? Ducimus?" },
   { title: 'Jamerson Jardel Silva', text: 'Lorem ipsum', sub_title: "Professor do IFNMG-Salinas", modalText: "Texto do Modal" },
   { title: 'Jamerson Jardel Souza', text: 'Lorem ipsum', sub_title: "Professor do IFNMG-Salinas", modalText: "Texto do Modal"},
   { title: 'Jamerson Jardel Abreu', text: 'Lorem ipsum', sub_title: "Professor do IFNMG-Salinas", modalText: "Texto do Modal"},

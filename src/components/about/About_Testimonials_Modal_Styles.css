@@ -15,7 +15,7 @@
 }
 
 .testimonials-modal-content {
-  width: 43%;
+  width: 43vw;
   height: auto;
   background-color: var(--accent-background);
   padding: 0%;
@@ -39,72 +39,107 @@
   justify-content:center;
   align-items: center;
   text-align: center;
-  width: 6%;
+  width: 8%;
+  height: 8%;
   color: var(--gray);
   cursor: pointer;
   padding: 0.6% 0% 0.6% 0%;
   border-radius: 8px;
   background-color: var(--secondary-background);
+  opacity: 0.8;
+  box-shadow: var(--shadow-2);
 
 }
 
 .testimonials-modal-close:hover{
   background-color: var( --primary-background);
+  opacity: 1;
 }
 
 .testimonials-modal-main{
   margin: 0% 4% 4% 4%;
   display: flex;
-  flex-direction: row;
-}
-
-.testimonials-modal-content-left{
-  width: 20%;
-  display: flex;
   flex-direction: column;
-  align-items: center;
+ 
+
 }
 
-.testimonials-modal-img{
+.testimonials-modal-content-top{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -2%;
+}
+
+.testimonials-figure{
   background-color: var(--background-onyx);
-  width: 80%;
-  border-radius: 20px;
-  justify-content: center;
-  align-items: center;
-  margin-top: -20%;
-}
-
-.testimonials-modal-icon{
-  padding: 0% 0% 0% 0%;
-  color: var(--gold);
-  width: 50%;
+  width: 20%;
+  height: auto;
+  border-radius: 18px;
   display: flex;
   justify-content: center;
-  margin-top: 8%;
+  align-items: center;
+}
+
+.testimonials-figure-img{
+  width: 7.5vw;
+
 
 }
+
 
 .testimonials-modal-content-text{
   width: 80%;
-  margin-top: -1%;
-
+  margin-left: 2%;
 }
 
 .testimonials-modal-title{
   color: var(--white);
-  font-size: 24px;
+  font-size: 1.6vw;
   margin-bottom: -1%;
 }
 
 .testimonials-modal-subtitle{
   color: var(--gray);
   font-weight: 300;
-  font-size: 13px;
+  font-size: 0.9vw;
   margin: 0% 0% 6% 3%;
+}
+
+
+.testimonials-modal-content-button{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 4%;
+  margin-bottom: 1%;
 }
 
 .testimonials-modal-text{
   color: var(--gray);
-  font-size: 15px;
-  width: 95%;
+  font-size: 0.94vw;
+  width: 74%;
+  display: flex;
+  text-align: justify;
+  margin-left: 4%;
+
+}
+
+.testimonials-modal-icon-container{
+  width: 15%;
+  height: 13vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2%;
+}
+
+.testimonials-modal-icon{
+  padding: 0% 0% 0% 0%;
+  color: var(--gold);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }

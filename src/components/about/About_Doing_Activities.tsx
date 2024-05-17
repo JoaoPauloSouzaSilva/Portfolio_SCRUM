@@ -16,8 +16,7 @@ const Activities: React.FC<ActivitiesProps> = ({Title, Text, NameIcon, onClick})
 
   return (
     <div className="Activities-container" onClick={onClick ? onClick : undefined}>
-      {/* <div className="About-doing-activities"> */}
-        <div className="Activities-icon"><Icon size="40"/></div>
+        <div className="Activities-icon"><Icon size="60%"/></div>
         <div className="Activities-content">
           <h4 className="Activities-title">{Title}</h4>
           <p className="Activities-text">{Text}</p>

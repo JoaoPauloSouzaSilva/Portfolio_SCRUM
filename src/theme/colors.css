@@ -7,7 +7,6 @@
   --dark-background: #121212;
   --darkest-background: #0d0d0d;
   --background-onyx: rgba(63, 63, 64, 1);
-
   --border: #383838;
   --lightWhite: #fafafa;
   --grayTransparent: #d6d6d6b3;
@@ -20,5 +19,6 @@
   --black: #000000;
 
   --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.125);
+  --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.125);
   --jet: hsl(0, 0%, 22%);
 }

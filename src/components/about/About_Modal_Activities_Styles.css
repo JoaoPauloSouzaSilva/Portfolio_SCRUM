@@ -15,7 +15,7 @@
 }
 
 .modal-content {
-  width: 43%;
+  width: 43vw;
   height: auto;
   background-color: var(--accent-background);
   padding: 0%;
@@ -39,17 +39,20 @@
   justify-content:center;
   align-items: center;
   text-align: center;
-  width: 6%;
+  width: 8%;
+  height: 8%;
   color: var(--gray);
   cursor: pointer;
   padding: 0.6% 0% 0.6% 0%;
   border-radius: 8px;
   background-color: var(--secondary-background);
-
+  opacity: 0.8;
+  box-shadow: var(--shadow-2);
 }
 
 .modal-close:hover{
   background-color: var( --primary-background);
+  opacity: 1;
 }
 
 .modal-main{
@@ -62,8 +65,10 @@
   padding: 0% 0% 0% 0%;
   color: var(--gold);
   width: 20%;
+  height: 20%;
   display: flex;
   justify-content: center;
+  align-items: center;
 
 }
 
@@ -75,11 +80,14 @@
 
 .modal-title{
   color: var(--white);
-  font-size: 24px;
+  font-size: 1.55vw;
+  margin-bottom: 2%;
 }
 
 .modal-text{
   color: var(--gray);
-  font-size: 15px;
-  width: 95%;
+  font-size: 1vw;
+  width: 90%;
+  text-align: justify;
+  margin-bottom: 3%;
 }

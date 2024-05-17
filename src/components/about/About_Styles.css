@@ -2,7 +2,7 @@
 @import url(../../theme/fonts.css);
 
 .About-container{
-  margin: 0% 2% 0% 2%;
+  margin: 0% 3% 0% 3%;
   font-family: var(--font-family);
   margin-top: -30px;
 
@@ -16,32 +16,13 @@
   margin-bottom: 0%;
 }
 
-.About-line{
-  background-color: var(--gold);
-  width: 5%;
-  height: auto;
-  padding: 0.8% 0% 0% 0%;
-  border-radius: 20px;
-  bottom: 0;
-  left: 0;
-  margin-bottom: 2%;
-  margin-top: 1%;
-}
 
-.title{
-  font-size: 32px;
-  color: var(--white);
-  font-weight: 600;
-}
-
-.About-container-text{
-  margin-bottom: 2%;
-}
 
 .About-text{
-  font-size: 15px;
+  font-size: 1vw;
   color: var(--gray);
   font-weight: 300;
+  text-align: justify;
 
 }
 
@@ -50,7 +31,7 @@
 }
 
 .About-doing-header{
-  font-size: 24px;
+  font-size: 1.55vw;
   color: var(--white);
   font-weight: 600;
   margin-bottom: 0%;
@@ -59,7 +40,7 @@
 .About-doing-container-activities{
   width: 100%;
   height: auto;
-  padding: 2% 2% 0% 2%;
+  padding: 2% 0% 0% 0%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -86,8 +67,13 @@
 }
 
 .About-testimonials-header{
-  font-size: 24px;
+  font-size: 1.55vw;
   color: var(--white);
   font-weight: 600;
-  margin-bottom: 2%;
+  margin-bottom: 0%;
+
+  }
+
+  .About-testimonials-container{
+    padding: 2% 0% 0% 0%;
   }
