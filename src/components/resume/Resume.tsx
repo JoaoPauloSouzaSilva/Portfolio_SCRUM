@@ -9,7 +9,7 @@ export default function Resume() {
       <div className="Resume-Section-container">
         
         <div className="Resume-Section-Header">
-          <div className="Resume-icon"><Unicons.UilGraduationCap  size="30"/></div>
+          <div className="Resume-icon"><Unicons.UilGraduationCap  size="100%"/></div>
           <h3 className="Resume-Title">Formação</h3>
         </div>
 
@@ -39,7 +39,7 @@ export default function Resume() {
       <div className="Resume-Section-container">
         
         <div className="Resume-Section-Header">
-          <div className="Resume-icon"><Unicons.UilFlask   size="30"/></div>
+          <div className="Resume-icon"><Unicons.UilFlask   size="100%"/></div>
           <h3 className="Resume-Title">Experiência</h3>
         </div>
 
