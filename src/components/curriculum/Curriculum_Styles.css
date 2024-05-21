@@ -4,42 +4,44 @@
 .Curriculum-container {  
   margin: 0% 2% 0% 2%;
   font-family: var(--font-family);
-  margin-top: -30px;
-  
+  margin-top: -3.3%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: default;
 }
 
 .Curriculum-container-text{
   margin-bottom: 0%;
+  padding-right: 2%;
+  margin-left: 1%;
+  text-align: justify;
 }
 
 .Curriculum-text{
-  font-size: 15px;
+  font-size: 1vw;
   color: var(--gray);
   font-weight: 300;
   margin-bottom: 2%;
 }
 
 .Curriculum-container-download{
-  width: 80%;
+  width: 50vw;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  
-  
+  margin-bottom: 3vw;
 }
 
 .Curriculum-action{
-  width: 40%;
+  width: 16vw;
   text-decoration: initial;
   background-color: var(--tertiary-background);
   text-align: center;
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 1.2vw;
+  font-weight: 400;
   border: solid 1px var(--border);
   border-radius: 15px;
   padding: 5%;
@@ -48,6 +50,8 @@
   margin-top: 1%;
   box-shadow: 1px 1px 0px var(--gold);
   transition: color 2s, background-color 0.3s, transform 2s, box-shadow 2s;
+  letter-spacing: 1px;
+
 }
 
 .Curriculum-action:hover{
@@ -66,5 +70,5 @@
   width: 100%;
   height: 1px;
   background: var(--primary-background);
-  margin: 32px 0;
+  margin: 3% 0;
 }

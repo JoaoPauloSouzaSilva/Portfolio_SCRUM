@@ -35,7 +35,7 @@ function Curriculum(){
 
 
           <a className='Curriculum-action' href={curriculum} download>
-            <div className="Curriculum-icon"><Unicons.UilFileDownload size="70"/></div>
+            <div className="Curriculum-icon"><Unicons.UilFileDownload size="50%"/></div>
             <p className='Curriculum-text-button'>
               Baixar Currículo
             </p> 
@@ -43,7 +43,7 @@ function Curriculum(){
 
 
           <div className='Curriculum-action' onClick={openResume}>
-          <div className="Curriculum-icon"><Unicons.UilBookOpen   size="70"/></div>
+          <div className="Curriculum-icon"><Unicons.UilBookOpen   size="50%"/></div>
             <p className='Curriculum-text-button'>
               Abrir Currículo           
             </p> 

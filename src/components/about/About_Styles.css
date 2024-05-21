@@ -4,8 +4,7 @@
 .About-container{
   margin: 0% 3% 0% 3%;
   font-family: var(--font-family);
-  margin-top: -30px;
-
+  margin-top: -3.3%;
   display: flex;
   flex-direction: column;
   cursor: default;
@@ -17,14 +16,11 @@
   margin-bottom: 0%;
 }
 
-
-
 .About-text{
   font-size: 1vw;
   color: var(--gray);
   font-weight: 300;
   text-align: justify;
-
 }
 
 .About-doing{
@@ -73,8 +69,8 @@
   font-weight: 600;
   margin-bottom: 0%;
 
-  }
+}
 
-  .About-testimonials-container{
-    padding: 2% 0% 0% 0%;
-  }
+.About-testimonials-container{
+  padding: 2% 0% 0% 0%;
+}
