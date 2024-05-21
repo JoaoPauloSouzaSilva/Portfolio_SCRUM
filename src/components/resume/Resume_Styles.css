@@ -9,9 +9,10 @@
 }
 
 .Resume-Section-container{
-  /* background-color: cornsilk; */
+
   width: 90%;
   margin-bottom: 8%;
+  margin-left: 1%;
 }
 
 .Resume-Section-Header{

@@ -25,13 +25,15 @@
   transition: border 0.5s, background-color 0.5s; 
 }
 
+a{
+  text-decoration: none;
+}
+
 .Project-Card-Img{
   width: 15.2vw;
   border-radius: 15px;
-  margin: 4% 4% 0.6% 4%;
-  
+  margin: 4% 4% 0.6% 4%;  
 }
-
 
 .Project-Card-Container-Text{
   width: 90%;

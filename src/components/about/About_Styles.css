@@ -21,6 +21,8 @@
   color: var(--gray);
   font-weight: 300;
   text-align: justify;
+  margin-right: 2%;
+  margin-left: 1%;
 }
 
 .About-doing{
