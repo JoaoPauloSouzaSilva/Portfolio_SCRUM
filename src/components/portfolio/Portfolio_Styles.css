@@ -8,7 +8,7 @@
 }
 
 .Portfolio-container-card {
-  width: 100%;
+  width: 57vw;
   height: auto;
   display: flex;
   flex-wrap: wrap; 
@@ -29,6 +29,7 @@
   color: var(--gray);
   opacity: 0.8;
   cursor: pointer;
+  font-size: 1vw;
 }
 
 .Portfolio-navigation-options:hover{
