@@ -5,50 +5,13 @@
   margin: 0% 2% 0% 2%;
   font-family: var(--font-family);
   margin-top: -30px;
-
-
   display: flex;
   flex-direction: column;
-}
-
-.Skills-header{
-  width: 100%;
-  height: auto;
-  margin-bottom: 0%;
-}
-
-.Skills-line{
-  background-color: var(--gold);
-  width: 5%;
-  height: auto;
-  padding: 0.8% 0% 0% 0%;
-  border-radius: 20px;
-  bottom: 0;
-  left: 0;
-  margin-bottom: 2%;
-  margin-top: 1%;
-}
-
-.Skills-title{
-  font-size: 32px;
-  color: var(--white); 
-  font-weight: 600;
-}
-
-.Skills-container-card {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap; /* Permite que os elementos quebrem para uma nova linha */
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
 }
 
 .Skills-navigation{
   display: flex;
   flex-direction: row;
-
 }
 
 .Skills-navigation-options{
@@ -57,6 +20,7 @@
   color: var(--gray);
   opacity: 0.8;
   cursor: pointer;
+  font-size: 1vw;
 }
 
 .Skills-navigation-options:hover{
@@ -65,8 +29,20 @@
 
 .selected {
   color: var(--gold);
+  opacity: 1;
 }
 
 .selected:hover {
   color: var(--gold);
 }
+
+.Skills-container-card {
+  width: 57vw;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+

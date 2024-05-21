@@ -13,6 +13,7 @@
   border: solid 1px var(--background-onyx);
   margin-bottom: 3%;
   font-family: var(--font-family);
+  cursor: pointer;
 }
 
 .Activities-container:hover{

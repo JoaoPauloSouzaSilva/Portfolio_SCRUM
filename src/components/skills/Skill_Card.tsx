@@ -8,6 +8,7 @@ interface SkillCardProps{
 }
 
 const SkillCard: React.FC<SkillCardProps> = ({ Tecnologia, ImgSrc, Level}) => {
+
   return (
       <div className='Skill-Card-container'>
         <div className="Skills-card">

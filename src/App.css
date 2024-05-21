@@ -83,6 +83,7 @@ body{
   padding: 2.5% 9%;
   margin: auto;
   border-radius: 8px;
+  cursor: default;
 }
 
 .container .main-content {
@@ -153,12 +154,17 @@ body{
   font-size: 0.88vw;
   text-transform: uppercase;
   margin-bottom: 0%;
+  cursor: default;
 }
 
 .contact-info, .contact-link, .datetime, .address {
   font-weight: 300;
   font-size: 0.8vw;
   color: var(--lightWhite);
+}
+
+.datetime, .address {
+  cursor: default;
 }
 
 a {

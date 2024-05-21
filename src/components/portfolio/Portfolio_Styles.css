@@ -38,6 +38,7 @@
 
 .selected {
   color: var(--gold);
+  opacity: 1;
 }
 
 .selected:hover {
