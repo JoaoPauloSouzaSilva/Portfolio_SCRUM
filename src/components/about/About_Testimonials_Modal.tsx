@@ -22,19 +22,11 @@ const ModalTestimonials: React.FC<ModalTestimonialsProps> = ({ isOpen, onClose, 
           <div className="testimonials-modal-close" onClick={onClose}><Unicons.UilTimes size="40%" /></div>
         </div>
         <div className="testimonials-modal-main">
-          <div className="testimonials-modal-content-top">
-            <div className="testimonials-figure">
-              <img className='testimonials-figure-img' src="src/assets/images/avatar-emoji.png" alt="Avatar Emoji" />
-            </div>
-            <div className="testimonials-modal-content-text">
-              <h3 className="testimonials-modal-title">{title}</h3>
-              <h5 className="testimonials-modal-subtitle">{sub_title}</h5>
-            </div> 
+          <div className="testimonials-modal-content-text">
+            <h3 className="testimonials-modal-title">{title}</h3>
+            <h5 className="testimonials-modal-subtitle">{sub_title}</h5>
           </div>
-          <div className="testimonials-modal-content-button">
-            <div className="testimonials-modal-icon-container">
-              <div className="testimonials-modal-icon"><Unicons.UilCommentDots size="50%"/></div>
-            </div>
+          <div className="testimonials-modal-container-text">
             <p className="testimonials-modal-text">
               {text}
             </p>

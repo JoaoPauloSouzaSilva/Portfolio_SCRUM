@@ -7,8 +7,8 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.8); /* fundo mais escuro com opacidade */
-  z-index: 1000; /* z-index alto para que fique sobre todo o conteúdo */
+  background-color: rgba(0, 0, 0, 0.8); 
+  z-index: 1000; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,7 +31,6 @@
   display: flex;
   justify-content: right;
   margin: 2% 2% 0% 4%;
-  
 }
 
 .testimonials-modal-close {
@@ -48,7 +47,6 @@
   background-color: var(--secondary-background);
   opacity: 0.8;
   box-shadow: var(--shadow-2);
-
 }
 
 .testimonials-modal-close:hover{
@@ -60,70 +58,43 @@
   margin: 0% 4% 4% 4%;
   display: flex;
   flex-direction: column;
- 
-
 }
 
-.testimonials-modal-content-top{
+.testimonials-modal-content-text{
   width: 100%;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-top: -2%;
-}
-
-.testimonials-figure{
-  background-color: var(--background-onyx);
-  width: 20%;
-  height: auto;
-  border-radius: 18px;
-  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.testimonials-figure-img{
-  width: 7.5vw;
-
-
-}
-
-
-.testimonials-modal-content-text{
-  width: 80%;
-  margin-left: 2%;
-}
-
 .testimonials-modal-title{
   color: var(--white);
-  font-size: 1.6vw;
+  font-size: 1.8vw;
   margin-bottom: -1%;
 }
 
 .testimonials-modal-subtitle{
-  color: var(--gray);
+  color: var(--grayTransparent);
   font-weight: 300;
-  font-size: 0.9vw;
-  margin: 0% 0% 6% 3%;
+  font-size: 1vw;
+  margin: 1% 0% 1% 0%;
 }
 
-
-.testimonials-modal-content-button{
+.testimonials-modal-container-text{
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  margin-top: 4%;
+  margin-top: 3%;
   margin-bottom: 1%;
+  display: flex;
+  justify-content: center;
 }
 
 .testimonials-modal-text{
   color: var(--gray);
-  font-size: 0.94vw;
-  width: 74%;
-  display: flex;
+  font-size: 1vw;
+  width: 97%;
   text-align: justify;
-  margin-left: 4%;
-
+  text-indent: 2em;
 }
 
 .testimonials-modal-icon-container{
@@ -141,5 +112,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }

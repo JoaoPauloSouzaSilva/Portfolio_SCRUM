@@ -44,7 +44,7 @@ const Carousel: React.FC = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 2
         }
@@ -73,14 +73,9 @@ const Carousel: React.FC = () => {
       <Slider {...settings}>
         {cards.map((card, index) => (
           <div key={index} className="card"  onClick={() => handleOpenModal(card)}>
-            <div className="card-header">
-              <div className="card-figure">
-                <img className='card-figure-img' src="src/assets/images/avatar-emoji.png" alt="Avatar Emoji" />
-              </div>
-              <div className="card-title-container">
-                <h3 className='card-title'>{card.title}</h3>
-                <h3 className='card-subTitle'>{card.sub_title}</h3>
-              </div>
+            <div className="card-title-container">
+              <h3 className='card-title'>{card.title}</h3>
+              <h3 className='card-subTitle'>{card.sub_title}</h3>
             </div>
             <p className='card-text'>{card.text}</p>
           </div>

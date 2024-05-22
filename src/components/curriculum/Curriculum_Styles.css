@@ -24,6 +24,7 @@
   color: var(--gray);
   font-weight: 300;
   margin-bottom: 2%;
+  text-indent: 2em;
 }
 
 .Curriculum-container-download{
@@ -32,26 +33,25 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 3vw;
+  margin-top: 1vw;
+  margin-bottom: 2vw;
 }
 
 .Curriculum-action{
-  width: 16vw;
-  text-decoration: initial;
+  width: 22vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--tertiary-background);
+  color: var(--gray);
   text-align: center;
-  font-size: 1.2vw;
-  font-weight: 400;
+  cursor: pointer;
   border: solid 1px var(--border);
   border-radius: 15px;
-  padding: 5%;
-  color: var(--gray);
-  cursor: pointer;
+  padding: 2% 0%;
   margin-top: 1%;
   box-shadow: 1px 1px 0px var(--gold);
   transition: color 2s, background-color 0.3s, transform 2s, box-shadow 2s;
-  letter-spacing: 1px;
-
 }
 
 .Curriculum-action:hover{
@@ -61,13 +61,22 @@
   box-shadow: none;
 }
 
-.Curriculum-text-button{
-  padding-top: 5%;
+.Curriculum-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7vw;
 }
 
+.Curriculum-text-button{
+  font-size: 1.2vw;
+  letter-spacing: 1px;
+  font-weight: 400;
+  padding-right: 3%;
+}
 
 .separator {
-  width: 100%;
+  width: 90%;
   height: 1px;
   background: var(--primary-background);
   margin: 3% 0;

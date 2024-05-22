@@ -62,20 +62,18 @@
 }
 
 .modal-icon-activities{
-  padding: 0% 0% 0% 0%;
+  padding: 0%;
   color: var(--gold);
   width: 20%;
-  height: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .modal-content-text{
   width: 80%;
   margin-top: -1%;
-
+  margin-left: 4%;
 }
 
 .modal-title{

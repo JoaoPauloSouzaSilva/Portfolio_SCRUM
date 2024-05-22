@@ -49,7 +49,7 @@ body{
 
 }
 
-.figure {
+/* .figure {
   display: block;
   margin-block-start: 1vw;
   margin-block-end: 1vw;
@@ -63,6 +63,22 @@ body{
   display: block;
   width: 9.5vw;
   margin-left: 0.7vw;
+} */
+
+.figure {
+  margin-bottom: 0.4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .sidebar .sidebar-info .figure img {
+  display: block;
+  width: 85%;
+  border-radius: 20px;
+  border: solid 0.2vw var(--primary-background);
+  box-shadow: 0.1vw 0.1vw 0.1vw var(--gold);
+  opacity: 0.8;
 }
 
 .name {

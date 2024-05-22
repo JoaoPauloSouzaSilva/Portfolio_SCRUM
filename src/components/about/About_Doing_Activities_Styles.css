@@ -22,15 +22,15 @@
 
 .Activities-icon{
   width: 30%;
-  height: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   color: var(--gold);
 }
 
 .Activities-content{
-  padding: 2% 5% 0% 0%;
+  padding: 2% 0% 0% 5%;
 }
 
 .Activities-title{

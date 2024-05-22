@@ -40,8 +40,11 @@ function App() {
     <div className="container">
       <div className="sidebar">
         <div className="sidebar-info">
-          <div className="figure">
+          {/* <div className="figure">
             <img src="src/assets/images/avatar-emoji.png" alt="Avatar Emoji" />
+          </div> */}
+          <div className="figure">
+            <img src="src/assets/images/testimg.jpg" alt="Avatar Emoji" />
           </div>
           <div className="info-content">
             <h1 className="name">João Paulo S. S.</h1>

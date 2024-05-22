@@ -33,23 +33,20 @@ function Curriculum(){
         
         <div className="Curriculum-container-download">
 
-
           <a className='Curriculum-action' href={curriculum} download>
-            <div className="Curriculum-icon"><Unicons.UilFileDownload size="50%"/></div>
+            <div className="Curriculum-icon"><Unicons.UilFileDownload size="40%"/></div>
             <p className='Curriculum-text-button'>
               Baixar Currículo
             </p> 
           </a>
 
-
           <div className='Curriculum-action' onClick={openResume}>
-          <div className="Curriculum-icon"><Unicons.UilBookOpen   size="50%"/></div>
-            <p className='Curriculum-text-button'>
-              Abrir Currículo           
-            </p> 
+            <div className="Curriculum-icon"><Unicons.UilBookOpen   size="40%"/></div>
+              <p className='Curriculum-text-button'>
+                Abrir Currículo           
+              </p> 
+            </div>
           </div>
-
-        </div>
 
 
       </div>
