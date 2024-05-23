@@ -108,21 +108,21 @@ function App() {
               <li className="social-item">
                 <a href="#" className="social-link">
                 <div className="social-icon">
-                  <UilWhatsappAlt />
+                  <UilWhatsappAlt size="50%"/>
                 </div>
                 </a>
               </li>
               <li className="social-item">
                 <a href="#" className="social-link">
                   <div className="social-icon">
-                    <UilLinkedin />
+                    <UilLinkedin size="50%"/>
                   </div>
                 </a>
               </li>
               <li className="social-item">
                 <a href="#" className="social-link">
                   <div className="social-icon">
-                    <UilInstagram  /> 
+                    <UilInstagram  size="50%"/> 
                   </div>
                 </a>
               </li>

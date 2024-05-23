@@ -17,7 +17,7 @@ body{
   align-items: stretch;
   justify-content: center;
   flex-direction: row;
-  width: 80%;
+  width: 80vw;
   margin: 4% 0%;
   margin-inline: auto;
   gap: 2%;
@@ -136,7 +136,7 @@ body{
 .contact-list {
   display: grid;
   gap: 0.8vh;
-  height: 40vh;
+  height: 37vh;
 }
 
 .container .sidebar .sidebar-info-more .contact-item {
@@ -161,7 +161,6 @@ body{
 }
 
 .container .sidebar .sidebar-info-more .contact-item .contact-info {
-  max-width: 100%;
   width: 100%;
 }
 
@@ -192,15 +191,46 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4%;
   opacity: 0.6;
-
 }
-
 
 .container .sidebar .sidebar-info-more .social-list .social-item .social-link .social-icon{
   color: var(--grayTransparent);
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 3vw;
+}
+
+
+@media (max-width: 1023px) {
+  .container {
+    width: 90vw;
+  }
+
+  .name {
+    font-size: 1.9vw;
+  }
+  
+   .description {
+    font-size: 0.9vw;
+  }  
+
+  .contact-list {
+    gap: 0vh;
+    height: 35vh;
+  }
+
+  .container .sidebar .sidebar-info-more .contact-item .icon-box{
+    height: 70%;
+  }
+
+  .contact-info, .contact-link, .datetime, .address {
+    font-size: 0.9vw;
+  }
+
+  .container .sidebar .sidebar-info-more .contact-item .contact-title {
+    font-size: 0.92vw;
+  }
+
 }
