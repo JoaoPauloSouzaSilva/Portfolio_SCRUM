@@ -46,3 +46,9 @@ body{
 .selected:hover {
   color: var(--gold);
 }
+
+@media (max-width: 1023px) {
+  .optionsNavBar{
+    font-size: 1.2vw;
+  }
+}
