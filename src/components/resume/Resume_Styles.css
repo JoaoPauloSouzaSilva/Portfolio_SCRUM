@@ -94,3 +94,44 @@
   font-size: 0.91vw;
   text-indent: 1em;
 }
+
+@media (max-width: 1023px) {
+  .Resume-icon{
+    height: 4vw;
+  }
+
+  .Resume-Title{
+    font-size: 1.9vw;
+  }
+
+  .Resume-ul {
+    margin-left: 3.9vw;
+  }
+  
+  .Resume-ul::before {
+    top: -3.8vh;
+  }
+
+  .Resume-li {
+    margin-bottom: 5%;
+  }
+
+  .Resume-li::before {
+    width: 0.8vw;
+    height: 1.5vh;
+  }
+
+  .Resume-li-Title{
+    font-size: 1.4vw;
+    margin-bottom: -1vh;
+  }
+  
+  .Resume-li-Date{
+    font-size: 1vw;
+  }
+  
+  .Resume-li-Text{
+    font-size: 1.2vw;
+  }
+  
+}
