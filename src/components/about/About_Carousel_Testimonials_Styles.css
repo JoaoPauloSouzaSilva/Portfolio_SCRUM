@@ -8,7 +8,6 @@
   font-family: var(--font-family);
   margin-bottom: 5%;
   cursor: pointer;
-
 }
 
 .card {
@@ -76,4 +75,23 @@
 .slick-slide {
   outline: none;
   padding: 0% 0.3%;
+}
+
+@media (max-width: 1023px) {
+  .carousel-container {
+    width: 58vw;
+  }
+
+  .card-title{
+    font-size: 1.5vw;
+  }
+  
+  .card-subTitle{
+    font-size: 1vw;
+  }
+  
+  .card-text{
+    font-size: 1.2vw;
+  }
+  
 }

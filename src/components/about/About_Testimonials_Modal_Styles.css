@@ -106,10 +106,21 @@
   margin-left: 2%;
 }
 
-.testimonials-modal-icon{
-  padding: 0% 0% 0% 0%;
-  color: var(--gold);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+@media (max-width: 1023px) {
+  .testimonials-modal-content {
+    width: 50vw;
+  }
+
+  .testimonials-modal-title{
+    font-size: 2vw;
+  }
+  
+  .testimonials-modal-subtitle{
+    font-size: 1.1vw;
+  }
+  
+  .testimonials-modal-text{
+    font-size: 1.3vw;
+  }
 }

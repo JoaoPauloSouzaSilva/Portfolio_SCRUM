@@ -7,8 +7,8 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.8); /* fundo mais escuro com opacidade */
-  z-index: 1000; /* z-index alto para que fique sobre todo o conteúdo */
+  background-color: rgba(0, 0, 0, 0.8); 
+  z-index: 1000; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,4 +88,18 @@
   width: 90%;
   text-align: justify;
   margin-bottom: 3%;
+}
+
+@media (max-width: 1023px) {
+  .modal-content {
+    width: 50vw;
+  }
+
+  .modal-title{
+    font-size: 1.7vw;
+  }
+  
+  .modal-text{
+    font-size: 1.2vw;
+  }
 }

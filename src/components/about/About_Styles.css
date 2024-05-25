@@ -77,3 +77,18 @@
 .About-testimonials-container{
   padding: 2% 0% 0% 0%;
 }
+
+@media (max-width: 1023px) {
+  .About-text{
+    font-size: 1.17vw;
+  }
+
+  .About-doing-header{
+    font-size: 1.8vw;
+  }
+
+  .About-testimonials-header{
+    font-size: 1.8vw;
+  }
+
+}

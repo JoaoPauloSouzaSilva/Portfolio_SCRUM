@@ -1,4 +1,4 @@
-@import url(../../theme/colors.css);
+  @import url(../../theme/colors.css);
 @import url(../../theme/fonts.css);
 
 .Activities-container{
@@ -43,4 +43,20 @@
 .Activities-text{
   color: var(--gray);
   font-size: 0.9vw;
+}
+
+@media (max-width: 1023px) {
+  
+  .Activities-container{
+    width: 30vw;
+  }
+
+  .Activities-title{
+    font-size: 1.4vw;
+  }
+  
+  .Activities-text{
+    font-size: 1vw;
+  }
+
 }
