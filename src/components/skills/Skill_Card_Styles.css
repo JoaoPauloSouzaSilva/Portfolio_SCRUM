@@ -8,7 +8,6 @@
 
 .Skills-card{
   width: 100%;
-  margin: 2%;
   padding: 3%;
   background-color: var(--tertiary-background);
   display: flex;
@@ -18,7 +17,7 @@
   text-align: center;
   border-radius: 20px;
   border: 1px solid var(--border);
-  box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.1);  
+  box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.1);
 }
 
 .Skills-card:hover{
@@ -48,4 +47,20 @@
   font-weight: 500;
   letter-spacing: 1px;
   cursor: default;
+}
+
+@media (max-width: 1023px) {
+  .Skill-Card-container{
+    width: 12.6vw;
+  }
+
+  
+  .Skills-card-icon{
+    width: 6.2vw;
+  }
+  
+  .Skills-card-level{
+    font-size: 1.3vw;
+  }
+  
 }

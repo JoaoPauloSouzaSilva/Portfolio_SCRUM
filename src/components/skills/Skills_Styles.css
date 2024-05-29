@@ -46,3 +46,13 @@
   flex-grow: 1;
 }
 
+@media (max-width: 1023px) {
+  .Skills-container-card {
+    width: 65vw;
+  }
+
+  .Skills-navigation-options{
+    font-size: 1.2vw;
+  }
+}
+
