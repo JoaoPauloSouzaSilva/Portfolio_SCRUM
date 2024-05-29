@@ -58,6 +58,18 @@ a{
     width: 20vw;
   }
 
+  .Project-Card-Container:hover .Project-Card-Img {
+    margin: 4%; 
+    transform: none; 
+    transition: none; 
+  }
+
+  .Project-Card-Container:hover {
+    border: none; 
+    background-color: initial; 
+    transition: none; 
+  }
+
   .Project-Card-Img{
     width: 18.2vw; 
   }
