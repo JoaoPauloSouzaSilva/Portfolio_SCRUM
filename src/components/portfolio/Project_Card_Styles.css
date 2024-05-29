@@ -50,4 +50,23 @@ a{
   font-size: 0.98vw;
   color: var(--gray);
   margin: -1% 0% 2% 0%;
+  opacity: 0.6;
+}
+
+@media (max-width: 1023px) {
+  .Project-Card-Container{
+    width: 20vw;
+  }
+
+  .Project-Card-Img{
+    width: 18.2vw; 
+  }
+
+  .Project-Card-Title{
+    font-size: 1.6vw;
+  }
+  
+  .Project-Card-Tipe{
+    font-size: 1.1vw;
+  }
 }

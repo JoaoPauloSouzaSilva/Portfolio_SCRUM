@@ -44,3 +44,13 @@
 .selected:hover {
   color: var(--gold);
 }
+
+@media (max-width: 1023px) {
+  .Portfolio-container-card {
+    width: 65vw;
+  }
+
+  .Portfolio-navigation-options{
+    font-size: 1.3vw;
+  }
+}
