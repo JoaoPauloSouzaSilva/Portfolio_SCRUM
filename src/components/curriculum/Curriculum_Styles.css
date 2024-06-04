@@ -109,3 +109,28 @@
   }  
   
 }
+
+@media (max-width: 702px) {
+  .Curriculum-text{
+    font-size: 1.8vw;
+  }
+
+  .Curriculum-container-download{
+    width: 80vw;
+    margin-bottom: 5%;
+  }
+
+  .Curriculum-icon{
+    width: 9vw;
+  }
+  
+  .Curriculum-text-button{
+    font-size: 1.7vw;
+  }
+
+  .Curriculum-action{
+    width: 30vw;
+    border-radius: 12px;
+  }
+  
+}
