@@ -33,3 +33,10 @@
   }
   
 }
+
+@media (max-width: 702px) {
+  .title{
+    font-size: 3.8vw;
+  }
+  
+}
