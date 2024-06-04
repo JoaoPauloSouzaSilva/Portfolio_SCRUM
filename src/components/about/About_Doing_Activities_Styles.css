@@ -61,19 +61,20 @@
 
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 702px) {
   
   .Activities-container{
-    width: 43vw;
-
+    width: 60vw;
+    
   }
 
   .Activities-title{
-    font-size: 1.9vw;
+    font-size: 2vw;
   }
   
   .Activities-text{
-    font-size: 1.5vw;
+    font-size: 1.8vw;
+    padding-right: 2%;
   }
 
 }

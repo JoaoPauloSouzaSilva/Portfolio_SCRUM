@@ -305,16 +305,16 @@ a {
 
   .sidebar-info-more{
     margin-top: -2%;
-    height: 100%;
+    height: auto;
     width: 45%;
 
   }
 
   .contact-list {
     /* gap: 2.2vh; */
-    gap: 3vh;
+    gap: 8%;
     width: 100%;
-    height: 100%;
+    height: 70%;
     margin: 0% 0%;
     margin-left: 2vw;
     opacity: 0.9;

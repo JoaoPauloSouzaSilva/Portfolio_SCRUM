@@ -58,6 +58,7 @@
 @media (max-width: 702px) {
   .Portfolio-container-card {
     width: 93vw;
+    margin-bottom: 3%;
   }
 
   .Portfolio-navigation-options{

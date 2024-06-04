@@ -59,6 +59,7 @@
 @media (max-width: 702px) {
   .Skills-container-card {
     width: 93vw;
+    margin-bottom: 3%;
   }
 
   .Skills-navigation-options{
