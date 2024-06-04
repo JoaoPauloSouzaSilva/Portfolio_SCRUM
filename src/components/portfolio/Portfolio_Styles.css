@@ -54,3 +54,14 @@
     font-size: 1.2vw;
   }
 }
+
+@media (max-width: 702px) {
+  .Portfolio-container-card {
+    width: 93vw;
+  }
+
+  .Portfolio-navigation-options{
+    font-size: 2vw;
+  }
+}
+
