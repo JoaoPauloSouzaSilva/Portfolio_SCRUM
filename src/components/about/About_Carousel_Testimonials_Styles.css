@@ -95,3 +95,22 @@
   }
   
 }
+
+@media (max-width: 702px) {
+  .carousel-container {
+    width: 70vw;
+  }
+
+  .card-title{
+    font-size: 2.5vw;
+  }
+  
+  .card-subTitle{
+    font-size: 1.7vw;
+  }
+  
+  .card-text{
+    font-size: 1.8vw;
+  }
+  
+}

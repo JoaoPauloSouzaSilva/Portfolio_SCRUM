@@ -124,3 +124,21 @@
     font-size: 1.3vw;
   }
 }
+
+@media (max-width: 702px) {
+  .testimonials-modal-content {
+    width: 80vw;
+  }
+
+  .testimonials-modal-title{
+    font-size: 3vw;
+  }
+  
+  .testimonials-modal-subtitle{
+    font-size: 1.8vw;
+  }
+  
+  .testimonials-modal-text{
+    font-size: 2vw;
+  }
+}
