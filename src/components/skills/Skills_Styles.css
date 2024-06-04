@@ -56,3 +56,17 @@
   }
 }
 
+@media (max-width: 702px) {
+  .Skills-container-card {
+    width: 93vw;
+  }
+
+  .Skills-navigation-options{
+    font-size: 2vw;
+  }
+
+  .Skills-container-card {
+    margin-top: 0.3%;
+  }
+}
+
