@@ -54,7 +54,11 @@ body{
 }
 
 @media (max-width: 702px) {
+  .NavBar-container{
+    width: 65%;
+  }
+
   .optionsNavBar{
-    font-size: 1.7vw;
+    font-size: 1.88vw;
   }
 }
