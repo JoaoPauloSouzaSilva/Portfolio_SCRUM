@@ -133,9 +133,14 @@ body{
   align-items: center;
 }
 
+.sidebar-info-more{
+  height: auto;
+}
+
 .contact-list {
   display: grid;
-  gap: 0.8vh;
+  /* gap: 0.8vh; */
+  gap: 1%;
   height: 37vh;
 }
 
@@ -350,6 +355,79 @@ a {
     justify-content: center;
     align-items: center;
     width: 7vw;
+  }
+
+}
+
+@media (max-width: 440px) {
+  .sidebar {
+    display: block;
+    margin: 1% 0% 3% 0%;
+  }
+
+  .sidebar-info{
+    width: 100%;
+  }
+
+  .container .sidebar .sidebar-info .figure img {
+    width: 40%;
+  }
+
+  .name {
+    font-size: 5.5vw;
+  }
+  
+  .description {
+    font-size: 2.5vw;
+    border-radius: 8px;
+  }
+    
+  .container .sidebar .sidebar-info-more .separator {
+    margin: 3% 0;
+    visibility: initial;
+    opacity: 0.6;
+    height: 0.07em;
+  }
+
+  .container .sidebar .sidebar-info-more .separator2 {
+    height: 0.03em;
+  }
+
+
+  .sidebar-info-more{
+    margin-top: 0%;
+    width: 100%;
+  }
+
+  .contact-list {
+    gap: 8%;
+    margin: 0% 0% 12% 0%;
+    margin-left: 5vw;
+  }
+  
+  .container .sidebar .sidebar-info-more .contact-item .icon-box{
+    width: 25%;
+    height: 108%;
+  }
+  
+  .container .sidebar .sidebar-info-more .contact-item .contact-title {
+    font-size: 2.5vw;
+  }
+
+  .contact-info, .contact-link, .datetime, .address {
+    font-size: 3vw;
+    opacity: 0.95;
+  }
+
+  .container .sidebar .sidebar-info-more .social-list {
+    margin-top: -3%;
+    
+  }
+
+  .container .sidebar .sidebar-info-more .social-list .social-item .social-link .social-icon{
+    width: 11vw;
+    opacity: 0.7;
+    margin-bottom: 2%;
   }
 
 }

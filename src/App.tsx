@@ -102,7 +102,7 @@ function App() {
         
 
         
-            <div className="separator" style={{marginBottom: '7%'}}></div>
+            <div className="separator separator2" style={{marginBottom: '7%'}}></div>
             
             <ul className="social-list">
               <li className="social-item">
