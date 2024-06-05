@@ -41,10 +41,12 @@ body{
 
 .selected {
   color: var(--gold);
+  opacity: 1;
 }
 
 .selected:hover {
   color: var(--gold);
+  opacity: 1;
 }
 
 @media (max-width: 1023px) {
@@ -61,4 +63,21 @@ body{
   .optionsNavBar{
     font-size: 1.88vw;
   }
+}
+
+@media (max-width: 440px) {
+  .NavBar-container{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 2%;
+  }
+
+  .optionsNavBar{
+    font-size: 3vw;
+  }
+
+  .listOptionsNavBar{
+    opacity: 0.9;
+  }
+
 }

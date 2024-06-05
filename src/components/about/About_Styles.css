@@ -107,3 +107,23 @@
   }
 
 }
+
+@media (max-width: 440px) {
+  .About-container{
+    margin-top: 0%;
+  }
+
+  .About-text{
+    font-size: 1.9vw;
+  }
+
+  .About-doing-header{
+    font-size: 2.8vw;
+  }
+
+  .About-testimonials-header{
+    font-size: 3vw;
+  }
+
+}
+

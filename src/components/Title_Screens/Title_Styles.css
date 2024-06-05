@@ -40,3 +40,15 @@
   }
   
 }
+
+@media (max-width: 440px) {
+  .title{
+    font-size: 5.5vw;
+  }
+  
+  .line{
+    width: 10%;
+    margin-bottom: 2.5%;
+    margin-top: 0%;
+  }
+}

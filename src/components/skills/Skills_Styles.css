@@ -71,3 +71,9 @@
   }
 }
 
+@media (max-width: 440px) {
+  .Skills-container{
+    margin-top: 0%;
+  }
+}
+

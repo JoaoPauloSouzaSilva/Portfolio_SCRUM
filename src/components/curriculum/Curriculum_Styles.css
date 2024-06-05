@@ -134,3 +134,9 @@
   }
   
 }
+
+@media (max-width: 440px) {
+  .Curriculum-container{
+    margin-top: 0%;
+  }
+}
