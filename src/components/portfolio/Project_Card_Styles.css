@@ -104,3 +104,23 @@ a{
     font-size: 1.7vw;
   }
 }
+
+@media (max-width: 440px) {
+  .Project-Card-Container{
+    width: 40vw;
+    
+  }
+
+  .Project-Card-Img{
+    width: 35vw; 
+  }
+
+  .Project-Card-Title{
+    font-size: 3.5vw;
+  }
+  
+  .Project-Card-Tipe{
+    font-size: 2.3vw;
+  }
+}
+

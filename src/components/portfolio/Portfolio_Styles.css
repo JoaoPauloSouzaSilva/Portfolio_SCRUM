@@ -70,5 +70,10 @@
   .Portfolio-container{
     margin-top: 0%;
   }
+
+  .Portfolio-navigation-options{
+    font-size: 3vw;
+    margin: 1%;
+  }
 }
 
