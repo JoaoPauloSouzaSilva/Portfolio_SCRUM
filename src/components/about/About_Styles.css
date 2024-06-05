@@ -114,15 +114,19 @@
   }
 
   .About-text{
-    font-size: 1.9vw;
-  }
-
-  .About-doing-header{
     font-size: 2.8vw;
   }
 
+  .About-doing-header{
+    font-size: 4.5vw;
+  }
+
+  .About-doing-container-activities{
+    padding: 2% 0% 3% 0%;
+  }
+
   .About-testimonials-header{
-    font-size: 3vw;
+    font-size: 4.7vw;
   }
 
 }

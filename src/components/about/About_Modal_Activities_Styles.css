@@ -68,6 +68,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0.8;
 }
 
 .modal-content-text{
@@ -115,5 +116,30 @@
   
   .modal-text{
     font-size: 2vw;
+  }
+}
+
+@media (max-width: 440px) {
+  .modal-content {
+    width: 88vw;
+    border-radius: 15px;
+  }
+
+  .modal-close {
+    width: 12%;
+    height: 12%;
+    border-radius: 6px;
+  }
+
+  .modal-icon-activities{
+    width: 18%;
+  }
+
+  .modal-title{
+    font-size: 4vw;
+  }
+  
+  .modal-text{
+    font-size: 2.88vw;
   }
 }

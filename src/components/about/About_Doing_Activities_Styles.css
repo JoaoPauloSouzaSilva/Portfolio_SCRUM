@@ -27,6 +27,7 @@
   align-items: center;
   text-align: center;
   color: var(--gold);
+  opacity: 0.8;
 }
 
 .Activities-content{
@@ -74,6 +75,32 @@
   
   .Activities-text{
     font-size: 1.8vw;
+    padding-right: 2%;
+  }
+
+}
+
+@media (max-width: 440px) {
+  
+  .Activities-container{
+    width: 77vw;
+  }
+
+  .Activities-icon{
+    width: 18%;
+    margin-left: 2%;
+  }
+
+  .Activities-content{
+    width: 80%;
+  }
+
+  .Activities-title{
+    font-size: 3.5vw;
+  }
+  
+  .Activities-text{
+    font-size: 2.6vw;
     padding-right: 2%;
   }
 

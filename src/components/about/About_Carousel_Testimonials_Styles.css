@@ -114,3 +114,30 @@
   }
   
 }
+
+@media (max-width: 440px) {
+  .carousel-container {
+    width: 80vw;
+  }
+
+  .slick-prev {
+    left: -5vw;
+  }
+  
+  .slick-next {
+    right: -5vw;
+  }
+
+  .card-title{
+    font-size: 3.7vw;
+  }
+  
+  .card-subTitle{
+    font-size: 2.5vw;
+  }
+  
+  .card-text{
+    font-size: 3vw;
+  }
+  
+}
