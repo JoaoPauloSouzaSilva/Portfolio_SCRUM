@@ -88,3 +88,27 @@
   
 }
 
+@media (max-width: 440px) {
+  .Skill-Card-container{
+    width: 26vw;
+    margin: 2%;
+
+  }
+
+  .Skills-card{
+    border-radius: 8px;
+  }
+
+  .Skills-card-title{
+    font-size: 3.3vw;
+  }
+  
+  .Skills-card-icon{
+    width: 12vw;
+  }
+  
+  .Skills-card-level{
+    font-size: 2.7vw;
+  }
+  
+}

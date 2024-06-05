@@ -75,5 +75,14 @@
   .Skills-container{
     margin-top: 0%;
   }
+
+  .Skills-navigation-options{
+    margin:  2% 1%;
+    font-size: 3vw;
+  }
+
+  .Skills-container-card {
+    margin-top: 0%;
+  }
 }
 
