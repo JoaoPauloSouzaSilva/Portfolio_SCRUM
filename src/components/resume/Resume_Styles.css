@@ -87,29 +87,31 @@
 
 .Resume-li-Date{
   font-size: 0.87vw;
+  margin-left: 1%;
 }
 
 .Resume-li-Text{
   color: var(--gray);
   font-size: 0.91vw;
-  text-indent: 1em;
+  margin-left: 2%;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1025px) {
   .Resume-icon{
-    height: 4vw;
+    width: 8vw;
+    height: 6vw;
   }
 
   .Resume-Title{
-    font-size: 1.9vw;
+    font-size: 3.1vw;
   }
 
   .Resume-ul {
-    margin-left: 3.9vw;
+    margin-left: 5.4vw;
   }
   
   .Resume-ul::before {
-    top: -3.8vh;
+    top: -3.4vh;
   }
 
   .Resume-li {
@@ -118,25 +120,26 @@
 
   .Resume-li::before {
     width: 0.8vw;
-    height: 1.5vh;
+    height: 1vh;
+    top: 1.3vh;
   }
 
   .Resume-li-Title{
-    font-size: 1.4vw;
-    margin-bottom: -1vh;
+    font-size: 2.3vw;
+    margin-bottom: 0vh;
   }
   
   .Resume-li-Date{
-    font-size: 1vw;
+    font-size: 1.7vw;
   }
   
   .Resume-li-Text{
-    font-size: 1.2vw;
+    font-size: 2vw;
   }
   
 }
 
-@media (max-width: 702px) {
+/* @media (max-width: 702px) {
   .Resume-icon{
     width: 8vw;
     height: 6vw;
@@ -177,7 +180,7 @@
     font-size: 2vw;
   }
   
-}
+} */
 
 @media (max-width: 440px) {
   .Resume-container{

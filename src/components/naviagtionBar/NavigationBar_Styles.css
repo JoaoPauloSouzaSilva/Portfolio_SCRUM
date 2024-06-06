@@ -49,13 +49,8 @@ body{
   opacity: 1;
 }
 
-@media (max-width: 1023px) {
-  .optionsNavBar{
-    font-size: 1.2vw;
-  }
-}
 
-@media (max-width: 702px) {
+@media (max-width: 1025px) {
   .NavBar-container{
     width: 65%;
   }
@@ -64,6 +59,16 @@ body{
     font-size: 1.88vw;
   }
 }
+
+/* @media (max-width: 702px) {
+  .NavBar-container{
+    width: 65%;
+  }
+
+  .optionsNavBar{
+    font-size: 1.88vw;
+  }
+} */
 
 @media (max-width: 440px) {
   .NavBar-container{

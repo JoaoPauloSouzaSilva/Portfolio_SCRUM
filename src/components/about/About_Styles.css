@@ -78,22 +78,7 @@
   padding: 2% 0% 0% 0%;
 }
 
-@media (max-width: 1023px) {
-  .About-text{
-    font-size: 1.17vw;
-  }
-
-  .About-doing-header{
-    font-size: 1.8vw;
-  }
-
-  .About-testimonials-header{
-    font-size: 1.8vw;
-  }
-
-}
-
-@media (max-width: 702px) {
+@media (max-width: 1025px) {
   .About-text{
     font-size: 1.9vw;
   }
@@ -106,7 +91,22 @@
     font-size: 3vw;
   }
 
-}
+} 
+
+/* @media (max-width: 702px) {
+  .About-text{
+    font-size: 1.9vw;
+  }
+
+  .About-doing-header{
+    font-size: 2.8vw;
+  }
+
+  .About-testimonials-header{
+    font-size: 3vw;
+  }
+
+} */
 
 @media (max-width: 440px) {
   .About-container{

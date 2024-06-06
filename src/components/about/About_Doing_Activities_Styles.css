@@ -46,23 +46,25 @@
   font-size: 0.9vw;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1025px) {
   
   .Activities-container{
-    width: 30vw;
+    width: 43vw;
+    
   }
 
   .Activities-title{
-    font-size: 1.4vw;
+    font-size: 2vw;
   }
   
   .Activities-text{
-    font-size: 1vw;
+    font-size: 1.5vw;
+    padding-right: 2%;
   }
 
 }
 
-@media (max-width: 702px) {
+/* @media (max-width: 702px) {
   
   .Activities-container{
     width: 60vw;
@@ -78,9 +80,9 @@
     padding-right: 2%;
   }
 
-}
+} */
 
-@media (max-width: 440px) {
+/* @media (max-width: 440px) {
   
   .Activities-container{
     width: 77vw;
@@ -104,4 +106,4 @@
     padding-right: 2%;
   }
 
-}
+} */

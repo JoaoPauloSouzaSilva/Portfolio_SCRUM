@@ -84,33 +84,7 @@
   margin: 3% 0;
 }
 
-@media (max-width: 1023px) {
-  .Curriculum-text{
-    font-size: 1.17vw;
-  }
-
-  .Curriculum-container-download{
-    width: 56vw;
-  }
-
-  .Curriculum-icon{
-    width: 7.5vw;
-  }
-  
-  .Curriculum-text-button{
-    font-size: 1.3vw;
-  }
-
-  .Curriculum-action:hover{
-    color: var(--gray); 
-    background-color: var(--tertiary-background); 
-    transform: none; 
-    box-shadow: 1px 1px 0px var(--gold); 
-  }  
-  
-}
-
-@media (max-width: 702px) {
+@media (max-width: 1025px) {
   .Curriculum-text{
     font-size: 1.8vw;
   }
@@ -134,6 +108,31 @@
   }
   
 }
+
+/* @media (max-width: 702px) {
+  .Curriculum-text{
+    font-size: 1.8vw;
+  }
+
+  .Curriculum-container-download{
+    width: 80vw;
+    margin-bottom: 5%;
+  }
+
+  .Curriculum-icon{
+    width: 9vw;
+  }
+  
+  .Curriculum-text-button{
+    font-size: 1.7vw;
+  }
+
+  .Curriculum-action{
+    width: 30vw;
+    border-radius: 12px;
+  }
+  
+} */
 
 @media (max-width: 440px) {
   .Curriculum-container{

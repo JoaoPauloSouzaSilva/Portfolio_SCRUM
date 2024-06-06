@@ -46,17 +46,7 @@
   flex-grow: 1;
 }
 
-@media (max-width: 1023px) {
-  .Skills-container-card {
-    width: 65vw;
-  }
-
-  .Skills-navigation-options{
-    font-size: 1.2vw;
-  }
-}
-
-@media (max-width: 702px) {
+@media (max-width: 1025px) {
   .Skills-container-card {
     width: 93vw;
     margin-bottom: 3%;
@@ -70,6 +60,21 @@
     margin-top: 0.3%;
   }
 }
+
+/* @media (max-width: 702px) {
+  .Skills-container-card {
+    width: 93vw;
+    margin-bottom: 3%;
+  }
+
+  .Skills-navigation-options{
+    font-size: 2vw;
+  }
+
+  .Skills-container-card {
+    margin-top: 0.3%;
+  }
+} */
 
 @media (max-width: 440px) {
   .Skills-container{
