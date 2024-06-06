@@ -50,7 +50,7 @@ body{
 }
 
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .NavBar-container{
     width: 65%;
   }
@@ -60,17 +60,7 @@ body{
   }
 }
 
-/* @media (max-width: 702px) {
-  .NavBar-container{
-    width: 65%;
-  }
-
-  .optionsNavBar{
-    font-size: 1.88vw;
-  }
-} */
-
-@media (max-width: 440px) {
+@media (max-width: 600px) {
   .NavBar-container{
     width: 100%;
     border-radius: 20px 20px 0px 0px;

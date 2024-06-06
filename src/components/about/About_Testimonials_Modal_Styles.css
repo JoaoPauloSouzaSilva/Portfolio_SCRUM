@@ -106,7 +106,7 @@
   margin-left: 2%;
 }
 
- @media (max-width: 1025px) {
+ @media (max-width: 1024px) {
   .testimonials-modal-content {
     width: 80vw;
   }
@@ -124,25 +124,7 @@
   }
 }
 
-/* @media (max-width: 702px) {
-  .testimonials-modal-content {
-    width: 80vw;
-  }
-
-  .testimonials-modal-title{
-    font-size: 3vw;
-  }
-  
-  .testimonials-modal-subtitle{
-    font-size: 1.8vw;
-  }
-  
-  .testimonials-modal-text{
-    font-size: 2vw;
-  }
-} */
-
-@media (max-width: 440px) {
+@media (max-width: 600px) {
   .testimonials-modal-content {
     width: 88vw;
     border-radius: 15px;

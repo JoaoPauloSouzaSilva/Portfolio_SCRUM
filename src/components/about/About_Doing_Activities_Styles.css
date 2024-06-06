@@ -46,7 +46,7 @@
   font-size: 0.9vw;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   
   .Activities-container{
     width: 43vw;
@@ -64,33 +64,15 @@
 
 }
 
-/* @media (max-width: 702px) {
-  
-  .Activities-container{
-    width: 60vw;
-    
-  }
-
-  .Activities-title{
-    font-size: 2vw;
-  }
-  
-  .Activities-text{
-    font-size: 1.8vw;
-    padding-right: 2%;
-  }
-
-} */
-
-/* @media (max-width: 440px) {
+@media (max-width: 600px) {
   
   .Activities-container{
     width: 77vw;
   }
 
   .Activities-icon{
-    width: 18%;
-    margin-left: 2%;
+    width: 15%;
+    margin-left: 5%;
   }
 
   .Activities-content{
@@ -98,12 +80,12 @@
   }
 
   .Activities-title{
-    font-size: 3.5vw;
+    font-size: 3vw;
   }
   
   .Activities-text{
-    font-size: 2.6vw;
+    font-size: 2.3vw;
     padding-right: 2%;
   }
 
-} */
+} 

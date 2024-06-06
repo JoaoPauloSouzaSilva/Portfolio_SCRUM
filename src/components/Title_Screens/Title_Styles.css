@@ -27,21 +27,14 @@
   margin-top: 1%;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .title{
     font-size: 3.8vw;
   }
   
 }
 
-/* @media (max-width: 702px) {
-  .title{
-    font-size: 3.8vw;
-  }
-  
-} */
-
-@media (max-width: 440px) {
+@media (max-width: 600px) {
   .title{
     font-size: 6vw;
   }

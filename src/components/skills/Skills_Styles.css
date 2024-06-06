@@ -46,7 +46,7 @@
   flex-grow: 1;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .Skills-container-card {
     width: 93vw;
     margin-bottom: 3%;
@@ -61,22 +61,7 @@
   }
 }
 
-/* @media (max-width: 702px) {
-  .Skills-container-card {
-    width: 93vw;
-    margin-bottom: 3%;
-  }
-
-  .Skills-navigation-options{
-    font-size: 2vw;
-  }
-
-  .Skills-container-card {
-    margin-top: 0.3%;
-  }
-} */
-
-@media (max-width: 440px) {
+@media (max-width: 600px) {
   .Skills-container{
     margin-top: 0%;
   }

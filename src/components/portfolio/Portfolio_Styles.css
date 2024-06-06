@@ -45,7 +45,7 @@
   color: var(--gold);
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .Portfolio-container-card {
     width: 93vw;
     margin-bottom: 3%;
@@ -56,18 +56,7 @@
   }
 }
 
-/* @media (max-width: 702px) {
-  .Portfolio-container-card {
-    width: 93vw;
-    margin-bottom: 3%;
-  }
-
-  .Portfolio-navigation-options{
-    font-size: 2vw;
-  }
-} */
-
-@media (max-width: 440px) {
+@media (max-width: 600px) {
   .Portfolio-container{
     margin-top: 0%;
   }

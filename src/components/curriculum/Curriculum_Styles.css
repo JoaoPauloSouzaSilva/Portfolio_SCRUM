@@ -84,7 +84,7 @@
   margin: 3% 0;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .Curriculum-text{
     font-size: 1.8vw;
   }
@@ -109,32 +109,7 @@
   
 }
 
-/* @media (max-width: 702px) {
-  .Curriculum-text{
-    font-size: 1.8vw;
-  }
-
-  .Curriculum-container-download{
-    width: 80vw;
-    margin-bottom: 5%;
-  }
-
-  .Curriculum-icon{
-    width: 9vw;
-  }
-  
-  .Curriculum-text-button{
-    font-size: 1.7vw;
-  }
-
-  .Curriculum-action{
-    width: 30vw;
-    border-radius: 12px;
-  }
-  
-} */
-
-@media (max-width: 440px) {
+@media (max-width: 600px) {
   .Curriculum-container{
     margin-top: 0%;
   }

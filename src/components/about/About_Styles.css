@@ -78,7 +78,7 @@
   padding: 2% 0% 0% 0%;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .About-text{
     font-size: 1.9vw;
   }
@@ -93,22 +93,7 @@
 
 } 
 
-/* @media (max-width: 702px) {
-  .About-text{
-    font-size: 1.9vw;
-  }
-
-  .About-doing-header{
-    font-size: 2.8vw;
-  }
-
-  .About-testimonials-header{
-    font-size: 3vw;
-  }
-
-} */
-
-@media (max-width: 440px) {
+@media (max-width: 600px) {
   .About-container{
     margin-top: 0%;
   }

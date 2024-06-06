@@ -53,7 +53,7 @@ a{
   opacity: 0.6;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .Project-Card-Container{
     width: 28vw;
   }
@@ -75,29 +75,7 @@ a{
   }
 }
 
-/* @media (max-width: 702px) {
-  .Project-Card-Container{
-    width: 28vw;
-  }
-
-  .Project-Card-Container:hover .Project-Card-Img {
-    margin: 6%; 
-  }
-
-  .Project-Card-Img{
-    width: 25vw; 
-  }
-
-  .Project-Card-Title{
-    font-size: 2.2vw;
-  }
-  
-  .Project-Card-Tipe{
-    font-size: 1.7vw;
-  }
-} */
-
-@media (max-width: 440px) {
+@media (max-width: 600px) {
   .Project-Card-Container{
     width: 40vw;
     
@@ -116,3 +94,24 @@ a{
   }
 }
 
+
+@media (max-width: 400px) {
+  .Project-Card-Container{
+    width: 60vw;
+    background-color: rgba(240, 248, 255, 0.055);
+    box-shadow: 0.2vw 0.2vw 0.8vw rgba(240, 248, 255, 0.164);
+    margin-bottom: 2%;
+  }
+
+  .Project-Card-Img{
+    width: 55vw; 
+  }
+
+  .Project-Card-Title{
+    font-size: 4.5vw;
+  }
+  
+  .Project-Card-Tipe{
+    font-size: 2.5vw;
+  }
+}

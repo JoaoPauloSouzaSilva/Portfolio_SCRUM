@@ -96,7 +96,7 @@
   margin-left: 2%;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .Resume-icon{
     width: 8vw;
     height: 6vw;
@@ -139,50 +139,7 @@
   
 }
 
-/* @media (max-width: 702px) {
-  .Resume-icon{
-    width: 8vw;
-    height: 6vw;
-  }
-
-  .Resume-Title{
-    font-size: 3.1vw;
-  }
-
-  .Resume-ul {
-    margin-left: 5.4vw;
-  }
-  
-  .Resume-ul::before {
-    top: -3.4vh;
-  }
-
-  .Resume-li {
-    margin-bottom: 5%;
-  }
-
-  .Resume-li::before {
-    width: 0.8vw;
-    height: 1vh;
-    top: 1.3vh;
-  }
-
-  .Resume-li-Title{
-    font-size: 2.3vw;
-    margin-bottom: -1vh;
-  }
-  
-  .Resume-li-Date{
-    font-size: 1.7vw;
-  }
-  
-  .Resume-li-Text{
-    font-size: 2vw;
-  }
-  
-} */
-
-@media (max-width: 440px) {
+@media (max-width: 600px) {
   .Resume-container{
     margin-top: 0%;
   }
@@ -193,7 +150,7 @@
   
   .Resume-icon{
     width: 15%;
-    height: 2.2em;
+    height: 2.8em;
     margin-top: 2%;
   }
 
@@ -240,4 +197,16 @@
     margin-left: 1%;
   }
 
+}
+
+@media (max-width: 451px) {
+  .Resume-icon{
+    height: 2.3em;
+  }
+}
+
+@media (max-width: 351px) {
+  .Resume-icon{
+    height: 1.8em;
+  }
 }

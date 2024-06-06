@@ -77,7 +77,7 @@
   padding: 0% 0.3%;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .carousel-container {
     width: 88vw;
   }
@@ -96,7 +96,7 @@
   
 }
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
   .carousel-container {
     width: 70vw;
   }
@@ -115,27 +115,7 @@
   
 }
 
-
-/* @media (max-width: 702px) {
-  .carousel-container {
-    width: 70vw;
-  }
-
-  .card-title{
-    font-size: 2.5vw;
-  }
-  
-  .card-subTitle{
-    font-size: 1.7vw;
-  }
-  
-  .card-text{
-    font-size: 1.8vw;
-  }
-  
-} */
-
-@media (max-width: 440px) {
+@media (max-width: 600px) {
   .carousel-container {
     width: 80vw;
   }
@@ -149,15 +129,15 @@
   }
 
   .card-title{
-    font-size: 3.7vw;
+    font-size: 3.5vw;
   }
   
   .card-subTitle{
-    font-size: 2.5vw;
+    font-size: 2.2vw;
   }
   
   .card-text{
-    font-size: 3vw;
+    font-size: 2.8vw;
   }
   
 }

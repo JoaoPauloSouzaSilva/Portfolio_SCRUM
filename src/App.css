@@ -207,7 +207,7 @@ a {
   width: 3vw;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .container {
     width: 100vw;
     align-items: center;
@@ -326,126 +326,7 @@ a {
 
 }
 
-/* @media (max-width: 702px) {
-  .container {
-    width: 100vw;
-    align-items: center;
-    flex-direction: column;
-    margin: 0%;
-  }
-
-  .sidebar {
- 
-    display: flex;
-    position: relative;
-    top: 0%;
-    width: 97vw;
-    height: auto;
-    max-height: max-content;
-    margin: 1% 0% 2% 0%;
-    margin-inline: auto;
-    z-index: 1;
-  }
-
-  .sidebar-info{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 45vw;
-    margin-right: 2%;
-  }
-
-  .figure {
-    margin-bottom: 0.4vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-
-  .container .sidebar .sidebar-info .figure img {
-    width: 50%;
-  }
-
-  .name {
-         
-    font-size: 4vw;
-    margin-bottom: 2%;
-  }
-  
-  .description {
-    
-    font-size: 1.7vw;
-    border-radius: 10px;
-  }
-    
-  .container .sidebar .sidebar-info-more .separator {
-    margin: 4% 0;
-    visibility: hidden;
-  }
-  
-  .navbar-container{
-    display: flex;
-    justify-content: end;
-  }
-
-  .container .main-content {
-    width: 97vw;
-    margin-bottom: 1%;
-  }
-
-  .sidebar-info-more{
-    margin-top: -2%;
-    height: auto;
-    width: 45%;
-
-  }
-
-  .contact-list {
-    
-    gap: 8%;
-    width: 100%;
-    height: 70%;
-    margin: 0% 0%;
-    margin-left: 2vw;
-    opacity: 0.9;
-  }
-  
-  .container .sidebar .sidebar-info-more .contact-item .icon-box{
-    width: 30%;
-    height: 100%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .container .sidebar .sidebar-info-more .contact-item .contact-title {
-    font-size: 1.8vw;
-  }
-
-  .contact-info, .contact-link, .datetime, .address {
-    font-size: 2vw;
-    opacity: 0.95;
-  }
-
-  
-  .container .sidebar .sidebar-info-more .social-list {
-    margin-top: -0.8%;
-    
-  }
-
-  .container .sidebar .sidebar-info-more .social-list .social-item .social-link .social-icon{
-    color: var(--grayTransparent);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 7vw;
-  }
-
-} */
-
- @media (max-width: 440px) {
+ @media (max-width: 600px) {
   .sidebar {
     display: block;
     margin: 1% 0% 3% 0%;
