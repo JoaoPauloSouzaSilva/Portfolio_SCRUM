@@ -48,7 +48,7 @@ function App() {
           </div>
           <div className="info-content">
             <h1 className="name">João Paulo S. S.</h1>
-            <p className="description"> Full Stack Developer </p>
+            <p className="description"> Desenvolvedor Front-End</p>
           </div>
         </div>
         <div className="sidebar-info-more">
@@ -62,10 +62,10 @@ function App() {
                 <div className="contact-info">
                   <p className="contact-title">Email</p>
                   <a
-                    href="mailto:joaopaulloss477@gmail.com"
+                    href="mailto:dev.jpaulo@gmail.com"
                     className="contact-link"
                   >
-                    joaopaulloss477@gmail.com
+                    dev.jpaulo@gmail.com
                   </a>
                 </div>
               </li>
@@ -74,9 +74,9 @@ function App() {
                   <UilPhone size="50%"/>
                 </div>
                 <div className="contact-info">
-                  <p className="contact-title">Phone</p>
-                  <a href="tel:+5531993447557" className="contact-link">
-                    +55 (31) 99344-7557
+                  <p className="contact-title">Telefone</p>
+                  <a href="tel:+5538999225774" className="contact-link">
+                    +55 (38) 9 9922-5774
                   </a>
                 </div>
               </li>
@@ -85,8 +85,8 @@ function App() {
                   <UilCalendarAlt size="50%"/>
                 </div>
                 <div className="contact-info">
-                  <p className="contact-title">Birthday</p>
-                  <p className="datetime">08 de Fevereiro, 2003</p>
+                  <p className="contact-title">aniversário</p>
+                  <p className="datetime">23 de Dezembro, 2002</p>
                 </div>
               </li>
               <li className="contact-item">
@@ -94,7 +94,7 @@ function App() {
                   <UilLocationPinAlt size="50%"/>
                 </div>
                 <div className="contact-info">
-                  <p className="contact-title">Location</p>
+                  <p className="contact-title">localização</p>
                   <p className="address">Salinas, Minas Gerais, BR</p>
                 </div>
               </li>
