@@ -195,14 +195,13 @@ a {
 
 @media (max-width: 1024px) {
   .container {
-    width: 100vw;
+    width: 100%;
     align-items: center;
     flex-direction: column;
     margin: 0%;
   }
 
   .sidebar {
- 
     display: flex;
     position: relative;
     top: 0%;
