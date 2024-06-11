@@ -32,7 +32,8 @@ a{
 .Project-Card-Img{
   width: 15.2vw;
   border-radius: 15px;
-  margin: 4% 4% 0.6% 4%;  
+  margin: 4% 4% 0.6% 4%;
+  opacity: 0.8;
 }
 
 .Project-Card-Container-Text{
