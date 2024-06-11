@@ -7,6 +7,7 @@ import Curriculum from "./components/curriculum/Curriculum";
 import Resume from "./components/resume/Resume";
 import Skills from "./components/skills/Skills";
 import * as Unicons from '@iconscout/react-unicons';
+import foto from "./assets/images/foto.png";
 
 function App() {
   const [KeyScreen, setKeyScreen] = useState(0);
@@ -35,7 +36,7 @@ function App() {
       <div className="sidebar">
         <div className="sidebar-info">
           <div className="figure">
-            <img src="src/assets/images/foto.png" alt="Avatar Emoji" />
+            <img src={foto} alt="Avatar Emoji" />
           </div>
           <div className="info-content">
             <h1 className="name">João Paulo S. S.</h1>
