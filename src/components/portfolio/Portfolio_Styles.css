@@ -1,0 +1,69 @@
+@import url(../../theme/colors.css);
+@import url(../../theme/fonts.css);
+
+.Portfolio-container {  
+  margin: 0% 2% 0% 2%;
+  font-family: var(--font-family);
+  margin-top: -3.3%;
+}
+
+.Portfolio-container-card {
+  width: 57vw;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.Portfolio-navigation{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.Portfolio-navigation-options{
+  padding: 0.5%;
+  margin:  0% 0.3%;
+  color: var(--gray);
+  opacity: 0.8;
+  cursor: pointer;
+  font-size: 1vw;
+}
+
+.Portfolio-navigation-options:hover{
+  opacity: 1;
+}
+
+.selected {
+  color: var(--gold);
+  opacity: 1;
+}
+
+.selected:hover {
+  color: var(--gold);
+}
+
+@media (max-width: 1024px) {
+  .Portfolio-container-card {
+    width: 93vw;
+    margin-bottom: 3%;
+  }
+
+  .Portfolio-navigation-options{
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .Portfolio-container{
+    margin-top: 0%;
+  }
+
+  .Portfolio-navigation-options{
+    font-size: 3vw;
+    margin: 1%;
+  }
+}
+

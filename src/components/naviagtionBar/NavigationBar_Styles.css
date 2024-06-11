@@ -1,0 +1,78 @@
+@import url(../../theme/colors.css);
+
+body{
+  width: 100%;
+}
+
+.NavBar-container{
+  background-color: var(--tertiary-background);
+  padding: 1% 2% 1% 2%;
+  width: 60%;
+  height: auto;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 20px 0px 20px;
+  border: solid 1px var(--border);
+}
+
+.listOptionsNavBar{
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  color: var(--gray);
+}
+
+.optionsNavBar{
+  padding: 3% 3% 3% 3%;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font: 500;
+  font-size: 0.95vw;
+  font-weight: 600;
+}
+
+.listOptionsNavBar :hover{
+  color: var(--grayTransparent);
+}
+
+.selected {
+  color: var(--gold);
+  opacity: 1;
+}
+
+.selected:hover {
+  color: var(--gold);
+  opacity: 1;
+}
+
+
+@media (max-width: 1024px) {
+  .NavBar-container{
+    width: 65%;
+  }
+
+  .optionsNavBar{
+    font-size: 1.88vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .NavBar-container{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 2%;
+  }
+
+  .optionsNavBar{
+    font-size: 3vw;
+  }
+
+  .listOptionsNavBar{
+    opacity: 0.9;
+  }
+
+}

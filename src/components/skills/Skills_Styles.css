@@ -1,0 +1,94 @@
+@import url(../../theme/colors.css);
+@import url(../../theme/fonts.css);
+
+.Skills-container{
+  margin: 0% 2% 0% 2%;
+  font-family: var(--font-family);
+  margin-top: -3.3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Skills-navigation{
+  display: flex;
+  flex-direction: row;
+}
+
+.Skills-navigation-options{
+  padding: 0.5%;
+  margin:  0% 0.3%;
+  color: var(--gray);
+  opacity: 0.8;
+  cursor: pointer;
+  font-size: 1vw;
+}
+
+.Skills-navigation-options:hover{
+  opacity: 1;
+}
+
+.selected {
+  color: var(--gold);
+  opacity: 1;
+}
+
+.selected:hover {
+  color: var(--gold);
+}
+
+.Skills-container-card {
+  width: 57vw;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.no-skills-message{
+  color: var(--gray);
+  margin-top: 3%;
+  font-weight: 200;
+  opacity: 0.5;
+  font-size: 1vw;
+}
+
+@media (max-width: 1024px) {
+  .Skills-container-card {
+    width: 93vw;
+    margin-bottom: 3%;
+  }
+
+  .Skills-navigation-options{
+    font-size: 2vw;
+  }
+
+  .Skills-container-card {
+    margin-top: 0.3%;
+  }
+
+  .no-skills-message{
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .Skills-container{
+    margin-top: 0%;
+  }
+
+  .Skills-navigation-options{
+    margin:  2% 1%;
+    font-size: 3vw;
+  }
+
+  .Skills-container-card {
+    margin-top: 0%;
+  }
+
+  .no-skills-message{
+    font-size: 3vw;
+  }
+}
+

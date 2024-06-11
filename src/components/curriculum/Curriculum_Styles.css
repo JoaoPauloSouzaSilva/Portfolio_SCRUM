@@ -1,0 +1,143 @@
+@import url(../../theme/colors.css);
+@import url(../../theme/fonts.css);
+
+.Curriculum-container {  
+  margin: 0% 2% 0% 2%;
+  font-family: var(--font-family);
+  margin-top: -3.3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}
+
+.Curriculum-container-text{
+  margin-bottom: 0%;
+  padding-right: 2%;
+  margin-left: 1%;
+  text-align: justify;
+}
+
+.Curriculum-text{
+  font-size: 1vw;
+  color: var(--gray);
+  font-weight: 300;
+  margin-bottom: 2%;
+  text-indent: 2em;
+}
+
+.Curriculum-container-download{
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+}
+
+.Curriculum-action{
+  width: 22vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--tertiary-background);
+  color: var(--gray);
+  text-align: center;
+  cursor: pointer;
+  border: solid 1px var(--border);
+  border-radius: 15px;
+  padding: 2% 0%;
+  margin-top: 1%;
+  box-shadow: 1px 1px 0px var(--gold);
+  transition: color 2s, background-color 0.3s, transform 2s, box-shadow 2s;
+}
+
+.Curriculum-action:hover{
+  color: var(--gold);
+  background-color: var(--secondary-background);
+  transform: scale(1.05);
+  box-shadow: none;
+}
+
+.Curriculum-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7vw;
+  opacity: 0.8;
+}
+
+.Curriculum-text-button{
+  font-size: 1.2vw;
+  letter-spacing: 1px;
+  font-weight: 400;
+  padding-right: 3%;
+  color: var(--white);
+}
+
+.separator {
+  width: 90%;
+  height: 0.12vh;
+  background: var(--primary-background);
+  margin: 3% 0;
+}
+
+@media (max-width: 1024px) {
+  .Curriculum-text{
+    font-size: 1.8vw;
+  }
+
+  .Curriculum-container-download{
+    width: 80vw;
+    margin-bottom: 5%;
+  }
+
+  .Curriculum-icon{
+    width: 9vw;
+  }
+  
+  .Curriculum-text-button{
+    font-size: 1.7vw;
+  }
+
+  .Curriculum-action{
+    width: 30vw;
+    border-radius: 12px;
+  }
+  
+}
+
+@media (max-width: 600px) {
+  .Curriculum-container{
+    margin-top: 0%;
+  }
+
+  .Curriculum-text{
+    font-size: 2.8vw;
+  }
+
+  .Curriculum-container-download{
+    width: 80vw;
+    margin-bottom: 1%;
+    flex-direction: column;
+  }
+
+  .Curriculum-action{
+    width: 60vw;
+    border-radius: 10px;
+    margin: 0% 0% 5% 0%;
+    filter: drop-shadow(0.5vw 0.4vw 0.9vw var(--primary-background));
+  }
+
+  .Curriculum-icon{
+    width: 18vw;
+  }
+  
+  .Curriculum-text-button{
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+}

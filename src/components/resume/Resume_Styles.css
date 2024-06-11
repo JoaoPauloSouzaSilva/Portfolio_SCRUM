@@ -1,0 +1,213 @@
+@import url(../../theme/colors.css);
+@import url(../../theme/fonts.css);
+
+.Resume-container{
+  margin: 0% 2% 0% 2%;
+  font-family: var(--font-family);
+  margin-top: -3.3%;
+  cursor: default;
+}
+
+.Resume-Section-container{
+  width: 90%;
+  margin-bottom: 8%;
+  margin-left: 1%;
+}
+
+.Resume-Section-Header{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  margin: 3% 0%;
+}
+
+.Resume-icon{
+  width: 8%;
+  height: 3vw;
+  padding: 1% 1.3%;
+  border-radius: 8px;
+  background: linear-gradient( to bottom right, hsl(0, 0%, 25%) 0%, hsla(0, 0%, 25%, 0) 50% );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--gold);
+  box-shadow: var(--shadow-1);
+  z-index: 1;
+}
+
+.Resume-Title{
+  margin-left: 0.5%;
+  font-size: 1.55vw;
+  color: var(--white);
+}
+
+.Resume-ul {
+  position: relative;
+  color: var(--gold);
+  margin-left: 3.5vw;
+  list-style: none;
+  opacity: 0.8;
+}
+
+.Resume-ul::before {
+  content: "";
+  position: absolute;
+  top: -3.2vh;
+  left: -1.7vw;
+  width: 0.03vw;
+  height: 100%;
+  background-color: var(--jet);
+}
+
+.Resume-li {
+  position: relative;
+  margin-bottom: 3%;
+}
+
+.Resume-li::before {
+  content: "";
+  position: absolute;
+  top: 0.94vh;
+  left: -2vw;
+  background-color: var(--gold);
+  width: 0.6vw;
+  height: 1.2vh;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 1em;
+}
+
+
+.Resume-li-Title{
+  color: var(--white);
+  font-size: 1.2vw;
+  font-weight: 600;
+}
+
+.Resume-li-Date{
+  font-size: 0.87vw;
+  margin-left: 1%;
+}
+
+.Resume-li-Text{
+  color: var(--gray);
+  font-size: 0.91vw;
+  margin-left: 2%;
+}
+
+@media (max-width: 1024px) {
+  .Resume-icon{
+    width: 8vw;
+    height: 6vw;
+  }
+
+  .Resume-Title{
+    font-size: 3.1vw;
+  }
+
+  .Resume-ul {
+    margin-left: 5.4vw;
+  }
+  
+  .Resume-ul::before {
+    top: -3.4vh;
+  }
+
+  .Resume-li {
+    margin-bottom: 5%;
+  }
+
+  .Resume-li::before {
+    width: 0.8vw;
+    height: 1vh;
+    top: 1.3vh;
+  }
+
+  .Resume-li-Title{
+    font-size: 2.3vw;
+    margin-bottom: 0vh;
+  }
+  
+  .Resume-li-Date{
+    font-size: 1.7vw;
+  }
+  
+  .Resume-li-Text{
+    font-size: 2vw;
+  }
+  
+}
+
+@media (max-width: 600px) {
+  .Resume-container{
+    margin-top: 0%;
+  }
+
+  .Resume-Section-container{
+    width: 98%;
+  }
+  
+  .Resume-icon{
+    width: 15%;
+    height: 2.8em;
+    margin-top: 2%;
+  }
+
+  .Resume-Title{
+    font-size: 3.9vw;
+    text-transform: uppercase;
+    margin-top: 2%;
+    margin-left: 0%;
+  }
+
+  .Resume-ul {
+    margin-left: 9.2%;
+  }
+  
+  .Resume-ul::before {
+    top: -4%;
+  }
+
+  .Resume-li {
+    margin-bottom: 5%;
+  }
+
+  .Resume-li::before {
+    width: 2%;
+    height: 7%;
+    top: 9%;
+    left: -2.8%;
+  }
+
+  .Resume-li-Title{
+    font-size: 3.5vw;
+    margin-bottom: -1vh;
+    margin-left: 1%;
+  }
+  
+  .Resume-li-Date{
+    font-size: 2.3vw;
+    margin-left: 3%;
+    opacity: 0.7;
+  }
+  
+  .Resume-li-Text{
+    font-size: 2.7vw;
+    margin-left: 1%;
+  }
+
+}
+
+@media (max-width: 451px) {
+  .Resume-icon{
+    height: 2.3em;
+  }
+}
+
+@media (max-width: 351px) {
+  .Resume-icon{
+    height: 1.8em;
+  }
+}

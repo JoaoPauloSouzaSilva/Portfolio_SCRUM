@@ -1,0 +1,119 @@
+@import url(../../theme/colors.css);
+@import url(../../theme/fonts.css);
+
+.Skill-Card-container{
+  width: 11.4vw;
+  margin: 2%;
+}
+
+.Skills-card{
+  width: 100%;
+  padding: 3%;
+  background-color: var(--tertiary-background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Skills-card:hover{
+  opacity: 1;
+}
+
+.Skills-card-title{
+  color: var(--white);
+  font-size: 1.4vw;
+  padding: 1%;
+  margin: 2% 0%;
+  width: 100%;
+  letter-spacing: 1px;
+  font-weight: bold;
+  cursor: default;
+}
+
+.Skills-card-icon{
+  width: 5.2vw;
+  margin: 8%;
+}
+
+.Skills-card-level{
+  width: 100%;
+  color: var(--gold);
+  font-size: 1vw;
+  margin-top: 2%;
+  font-weight: 500;
+  letter-spacing: 0px;
+  cursor: default;
+  margin: 2% 0%;
+}
+
+@media (max-width: 1024px) {
+  .Skill-Card-container{
+    width: 17vw;
+    margin: 1%;
+  }
+
+  .Skills-card{
+    border-radius: 12px;
+  }
+
+  .Skills-card-title{
+    font-size: 2vw;
+  }
+  
+  .Skills-card-icon{
+    width: 8.2vw;
+  }
+  
+  .Skills-card-level{
+    font-size: 1.8vw;
+  }
+  
+}
+
+@media (max-width: 600px) {
+  .Skill-Card-container{
+    width: 26vw;
+    margin: 2%;
+  }
+
+  .Skills-card{
+    border-radius: 8px;
+  }
+
+  .Skills-card-title{
+    font-size: 3vw;
+  }
+  
+  .Skills-card-icon{
+    width: 12vw;
+  }
+  
+  .Skills-card-level{
+    font-size: 2.7vw;
+  }
+  
+}
+
+@media (max-width: 400px) {
+  .Skill-Card-container{
+    width: 36vw;
+  }
+
+  .Skills-card-title{
+    font-size: 4vw;
+  }
+  
+  .Skills-card-icon{
+    width: 16vw;
+    opacity: 0.8;
+  }
+  
+  .Skills-card-level{
+    font-size: 3.3vw;
+  }
+}
