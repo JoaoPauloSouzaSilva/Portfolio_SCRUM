@@ -13,10 +13,10 @@ interface Card {
 }
 
 const cards: Card[] = [
-  { title: 'Jamerson Jardel Neris', text: 'joão Paulo foi um foda aluno, com notas superiores oa 80% ...', sub_title: "Professor do IFNMG-Salinas", modalText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, placeat nemo. Tempora aliquam, eum animi velit vero asperiores, pariatur eius quam accusamus nostrum ducimus maiores illum vel placeat aspernatur? Ducimus?" },
-  { title: 'Jamerson Jardel Silva', text: 'Lorem ipsum', sub_title: "Professor do IFNMG-Salinas", modalText: "Texto do Modal" },
-  { title: 'Jamerson Jardel Souza', text: 'Lorem ipsum', sub_title: "Professor do IFNMG-Salinas", modalText: "Texto do Modal"},
-  { title: 'Jamerson Jardel Abreu', text: 'Lorem ipsum', sub_title: "Professor do IFNMG-Salinas", modalText: "Texto do Modal"},
+  { title: 'Leonardo Humberto G. S.', text: 'Aluno excepcional, que em sala de aula e em diversos projetos ...', sub_title: "Professor do IFNMG-Salinas", modalText: "Aluno excepcional, que em sala de aula e em diversos projetos, demonstrou um potencial notável. Com um futuro promissor à sua frente, ele possui todas as qualidades necessárias para se destacar como um desenvolvedor de grande renome." },
+  { title: 'Emilha de Souza', text: 'João é um colaborador excepcional que vem se destacando ...', sub_title: "Presidente da SIFSoft Jr", modalText: "João é um colaborador excepcional que vem se destacando por sua dedicação e profissionalismo, auxiliando nossa empresa júnior a alcançar novos patamares de crescimento a cada dia." },
+  { title: 'Arthur Faria Porto', text: 'Ele é um excelente aluno, dedicado e, acima de tudo, proativo ...', sub_title: "Coordenador do BSI", modalText: "Ele é um excelente aluno, dedicado e, acima de tudo, proativo. Apesar das dificuldades, ele sempre busca dar o melhor de si para superá-las."},
+ 
 ];
 
 const Carousel: React.FC = () => {

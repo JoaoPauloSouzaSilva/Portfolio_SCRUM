@@ -14,8 +14,8 @@ function Portfolio(){
   const filteredProject = ProjectData.filter(project => {
     if (selectedOption === 0) return true;
     if (selectedOption === 1) return project.Type === 'Desenvolvimento Web';
-    if (selectedOption === 2) return project.Type === 'Design Web';
-    if (selectedOption === 3) return project.Type === 'Aplicativo';
+    if (selectedOption === 2) return project.Type === 'Aplicativo';
+    if (selectedOption === 3) return project.Type === 'Back-End';
     return true;
   });
 
@@ -26,8 +26,8 @@ function Portfolio(){
       <div className="Portfolio-navigation"> 
           <div className={`Portfolio-navigation-options ${selectedOption === 0 ? 'selected' : ''}`} onClick={() =>  handleFilter(0)}>Todos</div>
           <div className={`Portfolio-navigation-options ${selectedOption === 1 ? 'selected' : ''}`} onClick={() =>  handleFilter(1)}>Desenvolvimento Web</div>
-          <div className={`Portfolio-navigation-options ${selectedOption === 2 ? 'selected' : ''}`} onClick={() =>  handleFilter(2)}>Design Web</div>
-          <div className={`Portfolio-navigation-options ${selectedOption === 3 ? 'selected' : ''}`} onClick={() =>  handleFilter(3)}>Aplicativo</div>
+          <div className={`Portfolio-navigation-options ${selectedOption === 2 ? 'selected' : ''}`} onClick={() =>  handleFilter(2)}>Aplicativo</div>
+          <div className={`Portfolio-navigation-options ${selectedOption === 3 ? 'selected' : ''}`} onClick={() =>  handleFilter(3)}>Back-End</div>
         </div>
 
       <div className="Portfolio-container-card">

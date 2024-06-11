@@ -1,11 +1,11 @@
 import './Curriculum_Styles.css';
 import Title from '../Title_Screens/Title';
-import curriculum from '../../assets/teste.pdf';
+import curriculo from '../../assets/curriculo_joao_paulo.pdf';
 import * as Unicons from '@iconscout/react-unicons';
 
 function Curriculum(){
   const openResume = (): void => {
-    window.open(curriculum, '_blank'); 
+    window.open(curriculo, '_blank'); 
   }
 
 
@@ -17,7 +17,7 @@ function Curriculum(){
 
         <div className="Curriculum-container-text">
         <p className="Curriculum-text">
-          Sou um profissional apaixonado por tecnologia e desenvolvimento web. Com uma sólida formação em Tecnologia da Informação, tenho me dedicado nos últimos anos a aprimorar minhas habilidades em diversas tecnologias, como Node.js, Express, React e MongoDB. Ao longo da minha carreira, participei de projetos desafiadores que me permitiram aprofundar meus conhecimentos e desenvolver soluções inovadoras.
+          Sou um profissional apaixonado por tecnologia e desenvolvimento web. Com uma sólida formação em Tecnologia da Informação, tenho me dedicado nos últimos anos a aprimorar minhas habilidades em diversas tecnologias. Ao longo da minha carreira, participei de projetos desafiadores que me permitiram aprofundar meus conhecimentos e desenvolver soluções inovadoras.
         </p>
 
         <p className="Curriculum-text">
@@ -33,7 +33,7 @@ function Curriculum(){
         
         <div className="Curriculum-container-download">
 
-          <a className='Curriculum-action' href={curriculum} download>
+          <a className='Curriculum-action' href={curriculo} download>
             <div className="Curriculum-icon"><Unicons.UilFileDownload size="40%"/></div>
             <p className='Curriculum-text-button'>
               Baixar Currículo

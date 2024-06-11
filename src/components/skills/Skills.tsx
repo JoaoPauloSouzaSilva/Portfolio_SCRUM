@@ -31,14 +31,18 @@ function Skills() {
       </div>
 
       <div className="Skills-container-card">
-        {filteredSkills.map((skill, index) => (
-          <SkillCard
-            key={index}
-            Tecnologia={skill.Tecnologia}
-            ImgSrc={skill.ImgSrc}
-            Level={skill.Level}
-          />
-        ))}
+      {filteredSkills.length === 0 ? (
+          <div className="no-skills-message">Ainda não possuo habilidades para o tipo selecionado.</div>
+        ) : (
+          filteredSkills.map((skill, index) => (
+            <SkillCard
+              key={index}
+              Tecnologia={skill.Tecnologia}
+              ImgSrc={skill.ImgSrc}
+              Level={skill.Level}
+            />
+          ))
+        )}
       </div>
     </div>
   );

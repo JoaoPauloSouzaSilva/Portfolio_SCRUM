@@ -15,23 +15,16 @@ export default function Resume() {
 
         <ul className="Resume-ul">
           <li className="Resume-li">
-            <h4 className="Resume-li-Title">University School Of The Arts</h4>
-            <span className="Resume-li-Date">2007 — 2008</span>
-            <p className="Resume-li-Text">Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.</p>
+            <h4 className="Resume-li-Title">Graduação em Bacharelado em Sistema de Informação</h4>
+            <span className="Resume-li-Date">2021 — 2025</span>
+            <p className="Resume-li-Text">Realizado no Instituto Federal do Norte de Minas Gerais - Campus salinas. Com coeficiente de rendimento superior a 85%.</p>
           </li>
 
           <li className="Resume-li">
-            <h4 className="Resume-li-Title">New York Academy Of Art</h4>
-            <span className="Resume-li-Date">2006 — 2007</span>
-            <p className="Resume-li-Text">Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis..</p>
+            <h4 className="Resume-li-Title">Técnico em Informática Integrado ao Ensino Médio</h4>
+            <span className="Resume-li-Date">2018 — 2021</span>
+            <p className="Resume-li-Text">Realizado no Instituto Federal do Norte de Minas Gerais - Campus salinas. Com coeficiente de rendimento superior a 80%.</p>
           </li>
-
-          <li className="Resume-li">
-            <h4 className="Resume-li-Title">High School Of Art And Design</h4>
-            <span className="Resume-li-Date">2002 — 2004</span>
-            <p className="Resume-li-Text">Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos.</p>
-          </li>
-
 
         </ul>
       </div>
@@ -45,26 +38,30 @@ export default function Resume() {
 
         <ul className="Resume-ul">
           <li className="Resume-li">
-            <h4 className="Resume-li-Title">University School Of The Arts</h4>
-            <span className="Resume-li-Date">2007 — 2008</span>
-            <p className="Resume-li-Text">Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.</p>
+            <h4 className="Resume-li-Title">SIFSoft Jr</h4>
+            <span className="Resume-li-Date">2023 — Atual</span>
+            <p className="Resume-li-Text">AAtuei como criador de mídias digitais, diretor substituto do setor de marketing e atualmente sou desenvolvedor front-end.</p>
           </li>
-
-          <li className="Resume-li">
-            <h4 className="Resume-li-Title">New York Academy Of Art</h4>
-            <span className="Resume-li-Date">2006 — 2007</span>
-            <p className="Resume-li-Text">Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis..</p>
-          </li>
-
-          <li className="Resume-li">
-            <h4 className="Resume-li-Title">High School Of Art And Design</h4>
-            <span className="Resume-li-Date">2002 — 2004</span>
-            <p className="Resume-li-Text">Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos.</p>
-          </li>
-
 
         </ul>
       </div>
+
+      {/* <div className="Resume-Section-container">
+  
+        <div className="Resume-Section-Header">
+          <div className="Resume-icon"><Unicons.UilPlay    size="100%"/></div>
+          <h3 className="Resume-Title">Cursos Complementares</h3>
+        </div>
+
+        <ul className="Resume-ul">
+          <li className="Resume-li">
+            <h4 className="Resume-li-Title">SIFSoft Jr</h4>
+            <span className="Resume-li-Date">2023 — Atual</span>
+            <p className="Resume-li-Text">AAtuei como criador de mídias digitais, diretor substituto do setor de marketing e atualmente sou desenvolvedor front-end.</p>
+          </li>
+
+        </ul>
+      </div> */}
 
     </div>
   );

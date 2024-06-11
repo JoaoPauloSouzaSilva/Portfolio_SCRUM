@@ -6,13 +6,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Curriculum from "./components/curriculum/Curriculum";
 import Resume from "./components/resume/Resume";
 import Skills from "./components/skills/Skills";
-import { UilEnvelope } from "@iconscout/react-unicons";
-import { UilWhatsappAlt } from "@iconscout/react-unicons";
-import { UilLinkedin } from "@iconscout/react-unicons";
-import { UilInstagram } from "@iconscout/react-unicons";
-import { UilPhone } from '@iconscout/react-unicons';
-import { UilCalendarAlt } from '@iconscout/react-unicons';
-import { UilLocationPinAlt } from '@iconscout/react-unicons';
+import * as Unicons from '@iconscout/react-unicons';
 
 function App() {
   const [KeyScreen, setKeyScreen] = useState(0);
@@ -40,11 +34,8 @@ function App() {
     <div className="container">
       <div className="sidebar">
         <div className="sidebar-info">
-          {/* <div className="figure">
-            <img src="src/assets/images/avatar-emoji.png" alt="Avatar Emoji" />
-          </div> */}
           <div className="figure">
-            <img src="src/assets/images/testimg.jpg" alt="Avatar Emoji" />
+            <img src="src/assets/images/foto.png" alt="Avatar Emoji" />
           </div>
           <div className="info-content">
             <h1 className="name">João Paulo S. S.</h1>
@@ -57,7 +48,7 @@ function App() {
             <ul className="contact-list">
               <li className="contact-item">
                 <div className="icon-box">
-                  <UilEnvelope size="50%"/>
+                  <Unicons.UilEnvelope size="50%"/>
                 </div>
                 <div className="contact-info">
                   <p className="contact-title">Email</p>
@@ -71,7 +62,7 @@ function App() {
               </li>
               <li className="contact-item">
                 <div className="icon-box">
-                  <UilPhone size="50%"/>
+                  <Unicons.UilPhone size="50%"/>
                 </div>
                 <div className="contact-info">
                   <p className="contact-title">Telefone</p>
@@ -82,7 +73,7 @@ function App() {
               </li>
               <li className="contact-item">
                 <div className="icon-box">
-                  <UilCalendarAlt size="50%"/>
+                  <Unicons.UilCalendarAlt size="50%"/>
                 </div>
                 <div className="contact-info">
                   <p className="contact-title">aniversário</p>
@@ -91,11 +82,11 @@ function App() {
               </li>
               <li className="contact-item">
                 <div className="icon-box">
-                  <UilLocationPinAlt size="50%"/>
+                  <Unicons.UilLocationPinAlt size="50%"/>
                 </div>
                 <div className="contact-info">
                   <p className="contact-title">localização</p>
-                  <p className="address">Salinas, Minas Gerais, BR</p>
+                  <p className="address">Minas Gerais, BR</p>
                 </div>
               </li>
             </ul>
@@ -106,23 +97,23 @@ function App() {
             
             <ul className="social-list">
               <li className="social-item">
-                <a href="#" className="social-link">
+                <a href="https://github.com/JoaoPauloSouzaSilva" target="_blank" className="social-link">
                 <div className="social-icon">
-                  <UilWhatsappAlt size="50%"/>
+                  <Unicons.UilGithubAlt  size="50%"/>
                 </div>
                 </a>
               </li>
               <li className="social-item">
-                <a href="#" className="social-link">
+                <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-souza-silva-49680b2bb/" target="_blank" className="social-link">
                   <div className="social-icon">
-                    <UilLinkedin size="50%"/>
+                    <Unicons.UilLinkedinAlt  size="50%"/>
                   </div>
                 </a>
               </li>
               <li className="social-item">
-                <a href="#" className="social-link">
+                <a href="https://www.instagram.com/jpaulloss/" target="_blank" className="social-link" >
                   <div className="social-icon">
-                    <UilInstagram  size="50%"/> 
+                    <Unicons.UilInstagram  size="50%"/> 
                   </div>
                 </a>
               </li>
