@@ -40,7 +40,7 @@ export default function Resume() {
           <li className="Resume-li">
             <h4 className="Resume-li-Title">SIFSoft Jr</h4>
             <span className="Resume-li-Date">2023 — Atual</span>
-            <p className="Resume-li-Text">AAtuei como criador de mídias digitais, diretor substituto do setor de marketing e atualmente sou desenvolvedor front-end.</p>
+            <p className="Resume-li-Text">Atuei como criador de mídias digitais, diretor substituto do setor de marketing e atualmente sou desenvolvedor front-end.</p>
           </li>
 
         </ul>

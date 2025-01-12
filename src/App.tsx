@@ -105,7 +105,7 @@ function App() {
                 </a>
               </li>
               <li className="social-item">
-                <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-souza-silva-49680b2bb/" target="_blank" className="social-link">
+                <a href="https://www.linkedin.com/in/joaopaulosouzasilva" target="_blank" className="social-link">
                   <div className="social-icon">
                     <Unicons.UilLinkedinAlt  size="50%"/>
                   </div>
